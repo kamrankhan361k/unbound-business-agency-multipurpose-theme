@@ -1,0 +1,2879 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- COMMON META TAG --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#205081">
+	<title>Unbound - Theme Documentation</title>
+	<!-- BOOTSTRAP CSS -->
+	<link href="css/website.min.css" rel="stylesheet" type="text/css" /><!-- GOOGLE FONTS CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet" type="text/css" /><!-- MAIN CSS -->
+	<link href="style.css" rel="stylesheet" type="text/css" /><!-- RESPONSIVE CSS -->
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" /><!-- PRINT CSS -->
+	<link href="css/print.css" rel="stylesheet" type="text/css" />
+</head>
+<body><!-- wraper_header_main -->
+<header class="wraper_header_main">
+<div class="container-fluid"><!-- row -->
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- header_main -->
+<div class="header_main"><!-- res-nav -->
+<div class="res-nav hidden-lg hidden-md hidden-sm visible-xs"><i class="fa fa-bars"></i></div>
+<!-- res-nav --><!-- logo -->
+
+<div class="logo"><img alt="WordPressTheme Logo" height="55" src="images/data/unboundlogo.png" width="242" /></div>
+<!-- logo --><!-- action-menu -->
+
+<div class="action-menu dropdown">
+<ul class="dropdown-menu">
+	<li><a href="//themes.radiantthemes.com/unbound" target="_blank">View Demo</a></li>
+	<li><a href="#" onclick="window.print(); return false">Print Page</a></li>
+</ul>
+</div>
+<!-- action-menu --></div>
+<!-- header_main --></div>
+</div>
+<!-- row --></div>
+</header>
+<!-- wraper_header_main --><!-- sidebar -->
+
+<aside class="sidebar"><!-- nav -->
+<nav class="nav">
+<ul>
+	<li><a href="#Introduction">Introduction</a></li>
+	<li><a href="#GeneralGuidelines">General Guidelines</a>
+	    <ul>
+    	    <li><a href="#PHPconfiguration">Edit PHP Configuration</a></li>
+    	</ul>
+	</li>
+	<li><a href="#ThemeInstallationSetup">Theme Installation &amp; Setup</a>
+	    <ul>
+	    <li><a href="#LicenseActivationReady">Plugin License Activation</a></li>
+	    <li><a href="#TemplateBlockBuilder">Template Block Builder</a></li>
+	   </ul>
+	</li>
+	<li><a href="#ThemeUpdate">Theme Update</a></li>
+	<li><a href="#PluginUpdate">Plugin Update</a></li>
+	<!--<li><a href="#ChildTheme">Child Theme</a></li>-->
+	<li><a href="#Pages">Pages</a>
+	    <ul>
+	    <li><a href="#SetFrontPageandPostsPage">Set Front Page and Posts Page</a></li>   
+	    <li><a href="#SetIndependentHeader">Set Independent Header</a></li>
+	    <li><a href="#SetIndependentShortHeader">Set Independent Short Header</a></li>
+	   </ul>
+	</li>   
+	<li><a href="#Sliders">Sliders</a></li>
+	<li><a href="#ContactForm7">Contact Form 7</a></li>
+	<!--<li><a href="#ThemeInstallationSetup">Theme Installation &amp; Setup</a></li>--><!--<li><a href="#ImportDemoData">Import Demo Data</a></li>-->
+	<li><a href="#ThemeOptions">Theme Options</a>
+	<ul>
+	    <li><a href="#Layout">Layout</a></li>
+		<li><a href="#Color">Color</a></li>
+		<li><a href="#Favicon">Favicon</a></li>
+		<li><a href="#FontStyle">Font and Style</a></li>
+		<li><a href="#CustomSlug">Custom Slug</a></li>
+		<li><a href="#Preloader">Preloader</a></li>
+		<li><a href="#ScrollToTop">Scroll To Top</a></li>
+		<li><a href="#GDPRNotice">GDPR Notice</a></li>
+		<li><a href="#SettingUpHeader">Setting Up Header</a></li>
+		<li><a href="#Shortheader">Short Header</a></li>
+		<li><a href="#FooterOptions">Footer Options</a></li>
+		<li><a href="#HomePageElements">Elements Style</a></li>
+		<li><a href="#SettingUp404Page">Setting Up 404 Page</a></li>
+		<li><a href="#Maintenance">Maintenance</a></li>
+		<li><a href="#comingsoon">Coming Soon</a></li>
+		<li><a href="#Search">Search</a></li>
+		<li><a href="#BlogLayoutOption">Blog</a></li>
+		<li><a href="#TeamDetails">Team Details</a></li>
+		<li><a href="#Shop">Shop</a></li>
+		<li><a href="#SocialIcons">Social Icons</a></li>
+		<li><a href="#CustomCSS">Custom CSS</a></li>
+		<li><a href="#ImportExport">Import/Export</a></li>
+	</ul>
+	</li>
+	<li><a href="#Elements">Elements</a>
+	<ul>
+		<li><a href="#Accordion">Accordion</a></li>
+		<li><a href="#AlertBox">Alert Box</a></li>
+		<li><a href="#AnimatedLink">Animated Link</a></li>
+		<li><a href="#BeforeAfter">Before-After</a></li>
+		<li><a href="#Blockquote">Blockquote</a></li>
+		<li><a href="#Blog">Blog</a></li>
+		<li><a href="#CallToAction">Call To Action</a></li>
+		<li><a href="#CaseStudy">Case Study</a></li>
+		<li><a href="#CaseStudiesSlider">Case Studies Slider</a></li>
+		<li><a href="#Clients">Clients</a></li>
+		<li><a href="#ContactBox">Contact Box</a></li>
+		<li><a href="#ContactForm">Contact Form 7</a></li>
+		<li><a href="#Countdown">Countdown</a></li>
+		<li><a href="#CounterUp">CounterUp</a></li>
+		<li><a href="#CurrencyConverter">Currency Converter</a></li>
+		<li><a href="#CustomButton">Custom Button</a></li>
+		<li><a href="#CustomMenu">Custom Menu</a></li>
+		<li><a href="#Dropcap">Dropcap</a></li>
+		<li><a href="#FancyTextBox">Fancy Text Box</a></li>
+		<li><a href="#FlipBox">Flip Box</a></li>
+		<li><a href="#HighlightBox">Highlight Box</a></li>
+		<li><a href="#IconBox">Icon Box</a></li>
+		<li><a href="#ihover">ihover</a></li>
+		<li><a href="#ImageGallery">Image Gallery</a></li>
+		<li><a href="#ImageSlider">Image Slider</a></li>
+		<li><a href="#List">List</a></li>
+		<li><a href="#LoanCalculator">Loan Calculator</a></li>
+		<li><a href="#MasonryGallery">Masonry Gallery</a></li>
+		<li><a href="#PopupVideo">Popup Video</a></li>
+		<li><a href="#Portfolio">Portfolio</a></li>
+		<li><a href="#PortfolioSlider">Portfolio Slider</a></li>
+		<li><a href="#PricingItem">Pricing Item</a></li>
+		<li><a href="#ProgressBar">Progress Bar</a></li>
+		<li><a href="#Separator">Separator</a></li>
+		<li><a href="#Tabs">Tabs</a></li>
+		<li><a href="#Team">Team</a></li>
+		<li><a href="#Testimonial">Testimonial</a></li>
+		<li><a href="#TypewriterText">Typewriter Text</a></li>
+		<li><a href="#ThemeButton">Theme Button</a></li>
+		<li><a href="#TimeLine">TimeLine</a></li>
+	</ul>
+	</li>
+	<!--<li><a href="#Plugins">Plugins</a>
+	<ul>
+		<li><a href="#PluginsInstallation">Plugins Installation</a></li>
+		<li><a href="#PluginsUpdate">Plugins Update</a></li>
+		<li><a href="#SliderRevolution">Slider Revolution</a></li>
+		<li><a href="#ContactForm7">Contact Form 7</a></li>
+	</ul>
+	</li>-->
+	<li><a href="#SetupMenuSubmenu">Menu</a></li>
+	<li><a href="#CreateMainMenu">E-Commerce</a></li>
+	<li><a href="#BlogPosts">Blog Posts</a> <!--<ul>
+		<li><a href="#BannerOption">Banner Option</a></li>
+		<li><a href="#BlogPost">Blog Post</a></li>
+		<li><a href="#WordpressPage">WordPress Page</a></li>
+		<li><a href="#PracticeAreasPage">Practice Areas Page</a></li>
+		<li><a href="#AttorneyPages">Attorney Pages</a></li>
+		<li><a href="#AboutUsPage">About Us Page</a></li>
+		<li><a href="#TestimonialPage">Testimonial Page</a></li>
+		<li><a href="#VideoTestimonial">Video Testimonial</a></li>
+		<li><a href="#ContactUs">Contact Us</a></li>
+	</ul>--></li>
+	<li><a href="#TestimonialItems2">Testimonial Items</a></li>
+	<li><a href="#TeamItems2">Team Items</a></li>
+	<li><a href="#PortfolioItems2">Portfolio Items</a></li>
+	<li><a href="#CaseStudyItems2">Case Study Items</a></li>
+	<li><a href="#ClientsItems2">Clients Items</a></li>
+	<li><a href="#Translation">Translation</a></li>
+	<li><a href="#SiteMaintenance">Site Maintenance</a> <!--<ul>
+		<li><a href="#ImproveSiteSpeed">Improve Site Speed</a></li>
+	</ul>--></li>
+	<!--<li><a href="#ExternalResources">External Resources</a>
+	<ul>
+		<li><a href="#WeUsedTheseHighQualityFreeImages">We Used These High Quality Free Images</a></li>
+	</ul>
+	</li>-->
+</ul>
+</nav>
+<!-- nav --></aside>
+<!-- sidebar --><!-- main -->
+
+<main class="tutorial_main"><!-- wraper_tutorial_main -->
+<div class="wraper_tutorial_main">
+<div class="container-fluid"><!-- row -->
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- content-element -->
+<div class="content-element"><!-- content-element-item -->
+<div class="content-element-item" id="Introduction">
+<h3 class="content-element-item-title">Introduction</h3>
+
+<p>Thank you for purchasing Unbound.</p>
+
+<p>In this guide, you&#39;ll find information about installing the theme, setting it up properly on your domain and customizing it as per your need; which includes setting up different pages for the site and everything from scratch. No prior knowledge of design and coding is required.</p>
+
+<p>You can follow different topics listed here and follow this step-by-step guide to setup your site with Unbound. We keep updating tutorial and knowledge base with vital tips and &lsquo;help articles&rsquo;. Therefore, we recommend you to check&nbsp;<u><a href="//themes.radiantthemes.com/unbound/docs/" target="_blank">online version of this tutorial</a></u>&nbsp;.</p>
+
+<p>Things worth mentioning: Kindly note, that we cannot provide the support until you specify your envato username by which you used to purchase the theme and Item Purchase Code.</p>
+
+<p>We also offer One time theme setup and site installation service for a nominal price of $50. Most theme installation and setup is done within 1 working day.</p>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="GeneralGuidelines">
+<h3 class="content-element-item-title">General Guidelines</h3>
+
+<p>We wish to thank you for purchasing Unbound! We&#39;re incredibly pleased and overwhelmed that you have chosen Unbound for your website. I&rsquo;m sure you won&rsquo;t be disappointed! Here, we outline all types of necessary information, and provide you with all the essential details you require for using Unbound. Unbound can only be used with WordPress and we presume that you already have WordPress installed and ready to go.</p>
+
+<p><strong>Essential Requirements and Recommended Settings</strong></p>
+
+<p><strong>Recommended Hosting</strong></p>
+
+<p>We recommend using a cPanel or Plesk based hosting from a renowned hosting service provider. Many low cost providers provide their custom web based panel which most of the time don&rsquo;t have required configuration to run websites smoothly.</p>
+
+<p>We recommend using <a href="//bit.ly/2lguuOn" target="_blank">Hostgator</a> for any hosting related need. Order plain cPanel based hosting. Don&#39;t order just Wordpress Hosting from any hosting provider. Wordpress hosting has lots of limitation and you might not be able to accomplish everything.</p>
+
+<p>Ideally cPanel, Plesk driven control panels works seamlessly. Also, make sure that your provider uses latest version of phpmyadmin. The older version of php and phpmyadmin might not support.</p>
+
+<p>We can troubleshoot and help, if you use cPanel, Plesk, Webmin, web panel, zpanel types of control panel. Also, when you ask for our help, please consider to send control panel access. Only FTP access might not be sufficient always.</p>
+
+<p><strong>Requirements</strong></p>
+
+<p>To work with Unbound, please ensure that you are running WordPress 4.7 or higher, PHP 5.6 or higher, and MySQL 5.6 or higher. We have tested it with Mac, Windows and Linux.</p>
+
+<p><strong>Recommended PHP Configuration Limits</strong></p>
+
+<p>Various issues that you may run into are: white screen, your demo import fails, empty page content and other similar issues which are all related to low PHP configuration limits. The best way is to increase the PHP limits of hosting account.</p>
+
+<ol>
+	<li>max_execution_time 300</li>
+	<li>memory_limit 128M</li>
+	<li>post_max_size 32M</li>
+	<li>upload_max_filesize 32M</li>
+</ol>
+</div>
+<!-- content-element-item -->
+<div class="content-element-item" id="PHPconfiguration">
+<h3 class="content-element-item-title">Edit PHP Configuration</h3>
+<p>Generally, there are two popular types of CPanel. You can change PHP configuration limits on your own, by follwing these steps. If you're using a CPanel which is different from these two types, then you need to contact your hosting provider to increse the above mentiond PHP configuration limits(especially 'upload_max_filesize' which should be 32MB).</p>
+Steps for the 1st type of CPanel:
+<ol>
+  <li>Login to your CPanel</li>
+  <li>Click on 'Select PHP Version' under Software section.</li>
+  <p><img alt="" src="images/cpanel-1.png" /></p>
+  <li>Click on 'Switch To PHP Options'.</li>
+  <p><img alt="" src="images/cpanel-2.png" /></p>
+  <li>Now, change the PHP configuration limits as we have mentioned above and click on 'Save' button to save all. You can also change PHP version here.</li>
+  <p><img alt="" src="images/cpanel-3.png" /></p>
+</ol>
+Steps for the 2nd type of CPanel:
+<ol>
+  <li>Login to your CPanel</li>
+  <li>Click on 'MultiPHP INI Editor' under Software section.</li>
+  <p><img alt="" src="images/cpanel-4.png" /></p>
+  <li>Choose your domain from the dropdown, under 'Configure PHP INI basic settings'.</li>
+  <p><img alt="" src="images/cpanel-5.png" /></p>
+  <li>Now, change the PHP configuration limits as we have mentioned above and click on 'Apply' button to save all.</li>
+  <p><img alt="" src="images/cpanel-6.png" /></p>
+</ol>
+You can change PHP version for this type of CPanel by following these steps:
+<ol>
+  <li>Login to your CPanel</li>
+  <li>Click on 'MultiPHP Manager' under Software section.</li>
+  <p><img alt="" src="images/cpanel-7.png" /></p>
+  <li>Choose your domain from the list.</li>
+  <li>Now, select current PHP version from 'PHP Version' and click on 'Apply' button to save all.</li>
+  <p><img alt="" src="images/cpanel-8.png" /></p>
+</ol>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ThemeInstallationSetup">
+<h3 class="content-element-item-title">Theme Installation &amp; Setup</h3>
+
+<!--<p>Video for Installation &amp; Setup is coming soon...</p>-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kRyhlqVCI9E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="LicenseActivationReady">
+<h3 class="content-element-item-title">Plugin License Activation</h3>
+<p>WPBakery Page Builder and Slider Revolution are <u><strong>LICENSED</strong></u> to be distributed with Unbound theme (Template Library is not included with this version of WPBakery Page Builder). So&nbsp;you <strong>DO NOT</strong> need to PURCHASE any separate license to&nbsp;activate them. We&#39;ll continue to provide updated and stable version of all required plugins for the life span of Unbound theme. You <u>DO NOT need to purchase</u> any supporting plugin&nbsp;which is part of the theme bundle.</p>
+
+<p>You can ignore messages like this below.</p>
+
+<p><img alt="Ignore such message" src="//themes.radiantthemes.com/unbound/docs/images/message-from-plugin.png" style="width: 852px; height: 46px;" /></p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="TemplateBlockBuilder">
+<h3 class="content-element-item-title">Template Block Builder</h3>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/munvFZKIV0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ThemeUpdate">
+<h3 class="content-element-item-title">Theme Update</h3>
+<p><strong>Theme Update Automatically</strong></p>
+<p>You can udate the theme automatically by following this link-- <a href="https://envato.com/market-plugin/" target="_blank">https://envato.com/market-plugin/</a></p>
+<p><strong>Theme Update manually</strong></p>
+<p>If you haven't changed any theme files as of yet, all you need to do to update your present version, is to download the latest package from ThemeForest, unpack the files, and upload the theme on the server.</p>
+<p>You need to upload the theme in your server by following these steps--</p>
+<ol>
+<li>Login to your CPanel</li>
+<li>Go to File Manager > public_html > wp-content > themes</li>
+<li>Upload your updated zip file of 'Unbound' theme</li>
+<li>Delete 'Unbound' theme folder of the present version</li>
+<li>unzip the updated version of the 'Unbound' theme</li>
+<li>After unzip, you may delete the theme zip</li>
+<!--<p><img alt="" src="images/theme-update.png" /></p>-->
+</ol>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="PluginUpdate">
+<h3 class="content-element-item-title">Plugin Update</h3>
+<p>You can update plugin like 'Slider Revolution', 'WPBakery Visual Composer' and others by following these steps--</p>
+<ol>
+<li>Login to your wp-admin</li>
+<li>Go to Plugins > Installed Plugins</li>
+<li>Now, delete those plugins which you want to update. For example, if you want to update 'Slider Revolution' and 'WPBakery Visual Composer' plugins, then delete those plugins first.</li>
+<li>After deleting, you wil get a notice to install those plugins again.</li>
+<p><img alt="" src="images/plugin-update.png" /></p>
+<li>Now install and activate those plugins. After installing, plugins will be updated automatically.</li>
+</ol>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ChildTheme">
+<h3 class="content-element-item-title">Child Theme</h3>
+
+<p>A Child Theme is specifically for developers who are willing to make changes to the critical functions and codes. If you do not intend to go that far, you can always ignore this lesson or chapter.</p>
+
+<p><strong>IMPORTANT : </strong> If you want to edit the templates and functions of a theme, we always advise you to incorporate or install &#39;Child Theme&#39; and make changes therein. To know more about the need and purpose of creating child theme, visit WordPress Codex on: <a href="//codex.wordpress.org/Child_Themes">//codex.wordpress.org/Child_Themes</a>.</p>
+
+<p>In the theme package, you will see materials required for Child Theme. It&rsquo;s found in the &quot;unbound-child.zip&quot; archive. You can&nbsp;install&nbsp;child theme in a similar way as you install main theme.</p>
+
+<p>A handful of recommendations on how to use Child Theme:</p>
+
+<p>In the child theme, almost all files from main theme can be replaced. It doesn&rsquo;t concern or affect only .php-files with templates and basic logics, but also .js and .css files from respective files and folders with images, icons etc..</p>
+
+<p>If you are thinking about changing some functions of the theme or adding new ones, you have to create file &#39;functions.php&#39; in the &quot;unbound-child&quot; folder, and add all requisite functions into it. If our WordPress theme has functions with such names, they will be replaced by yours, if not &ndash; your functions will complete the logics of our theme.</p>
+
+<p><strong>IMPORTANT : </strong> If you are thinking of replacing some functions from other files (except functions.php), we highly recommend you, NOT to copy-paste respective files into the child theme, but instead create the respective functions in functions.php in the child theme. This should be strictly implemented, so that while updating them, new functions from these files are available for use.</p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="Pages">
+<h3 class="content-element-item-title">Pages</h3>
+
+<p>By following this tutorial you can set Front Page and Posts Page and can easily manage your header, Short header for page.</p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="SetFrontPageandPostsPage">
+<h3 class="content-element-item-title">Set Front Page and Posts Page</h3>
+
+<p><strong>Please go through the following points to learn how to set Front Page and Posts page:</strong></p>
+
+<ol>
+	<li>Login to WordPress admin panel (URL should be www.yourdomain.com/wp-admin )</li>
+	<li>Navigate to &quot;Settings &gt; Reading&quot;.</li>
+	<p><img alt="" src="images/reading.png" /></p>
+	<li>From dropdown, select which page you want to set as &quot;Front Page&quot; and which page you want as &ldquo;blog posts&rdquo; page. Default Front Page is &lsquo;Home&rsquo; and default posts page is &lsquo;Blog&rsquo;.</li>
+	<p><img alt="" src="images/set-front-posts.png" /></p>
+	<li>Click on &lsquo;Save Changes&rsquo; button to save all.</li>
+</ol>
+
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="SetIndependentHeader">
+<h3 class="content-element-item-title">Set different Header for specific pages</h3>
+<p>By-default, header is functioning from Theme Options for all pages. If you want a different header for a page, then you can do the same by choosing 'Select Header' from that specific page.</p>
+
+<p><img alt="" src="images/page-header.png" /></p>
+
+<p>'DEFAULT' style is by-default option which is the current header style of your Theme Option. So, if you want same header on all pages, then you don't need to select anything. If you want a different header for a specific page, then you can choose any other 'Header Style' as your wish. After selecting 'Header Style', You can change settings for that header from Theme Options(Heder > General).</p>
+
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="SetIndependentShortHeader">
+<h3 class="content-element-item-title">Set different Short Header for specific pages</h3>
+
+<p>By-default, short header is functioning from Theme Options for all pages. If you want a different short header style for a page, then you can do the same by choosing 'Select Short Header' from that specific page.</p>
+
+<p>'DEFAULT' style is by-default option which is the current short header style of your Theme Option. So, if you want same short header style on all pages, then you don't need to select anything. If you want a different short header style for a specific page, then you can choose any other 'Select Short Header' as your wish. Other than 'DEFAULT' style, you will get 4 different types of short headers--</p>
+
+<p><img alt="" src="images/short-header.png" /></p>
+
+<ol>
+	<li><strong>Short Banner With Breadcumbs--</strong> To get short header with both banner and breadcrumbs.</li>
+	<li><strong>Short Banner Only--</strong> To get short header with banner only.</li>
+	<li><strong>Breadcumbs Only--</strong> To get short header with breadcrumbs only.</li>
+	<li><strong>None--</strong> To remove short header.</li>
+</ol>
+
+<p>You can set your banner image from here--</p>
+
+<p><img alt="" src="images/banner-img.png" /></p>
+
+<p>If you want a title and subtitle for your short header, then you can do the same from here--</p>
+
+<p><img alt="" src="images/short-header-title-subtitle.png" /></p>
+</div>
+<!-- content-element-item -->
+
+<div class="content-element-item" id="WaytoworkwithVisualComposer">
+<h3 class="content-element-item-title">Way to work with WPBakery Page Builder</h3>
+
+<p>Please <a href="https://vc.wpbakery.com/video-tutorials/" rel="nofollow" target="_blank">click here</a> to watch all videos for better understanding of WPBakery page Builder.</p>
+
+<p>You can also enable &ldquo;WPBakery Page Builder&rdquo; for Blog Posts, Team, Portfolio etc. by following these steps--</p>
+
+<p><img alt="" src="images/add-page-builder.png" /></p>
+
+<p>You may notice an error message on your WordPress dashboard regarding activation of Visual Composer. Please do not worry, we have included fully licensed &lsquo;in-stock&rsquo; version of Visual Composer. You don&#39;t need to purchase separate license to use it. You will keep getting updated version of the plugin when we release new version of our theme.</p>
+
+<ol>
+	<li>Navigate to WPBakery Page Builder &gt; Role Manager</li>
+	<li>Default value on drop-down field of &lsquo;Post types&rsquo; is &lsquo;Pages Only&rsquo;. Choose &lsquo;Custom&rsquo; option. Now, choose where you want to enable WPBakery page Builder.</li>
+	<li>Click on &lsquo;Save Changes&rsquo; to save everything.</li>
+</ol>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="Sliders">
+<h3 class="content-element-item-title">Slider</h3>
+
+<p>You will get &lsquo;Revolution Slider in Unbound (&lsquo;Revolution Slider&rsquo; plugin must be installed and activated).</p>
+
+<p>You can manage your &lsquo;Revolution Slider&rsquo; by following this video tutorial--</p>
+
+<div class="text-center"><iframe allow="encrypted-media" allowfullscreen="" frameborder="0" gesture="media" height="633" src="https://www.youtube.com/embed/OIJShHQlMx0?list=PLSCdqDWVMJPPDcH_57CNZvLckoB8cimJF" width="1366"></iframe></div>
+
+<p>You will keep getting updated versions of the &lsquo;Revolution Slider&rsquo; plugin when we release new version of our theme.</p>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="ContactForm7">
+<h3 class="content-element-item-title">Contact Form 7</h3>
+
+<p>Contact form 7 is used to create &lsquo;easy to handle&rsquo; and &lsquo;easy to customize&rsquo; forms. Unbound theme has seven pre-built forms. To get all forms, &lsquo;Contact Form 7&rsquo; plugin must be installed and activated. You can add/edit/delete the contact form by following this documentation---</p>
+<a href="https://contactform7.com/getting-started-with-contact-form-7/" target="_blank">https://contactform7.com/getting-started-with-contact-form-7/</a></div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ThemeOptions">
+<h3 class="content-element-item-title">Theme Options</h3>
+
+<p>You can manage a lot of things from &lsquo;Theme Options&rsquo; easily.</p>
+
+<p>In &lsquo;Theme Options&rsquo;, there are 3 buttons namely - &#39;Save Changes&#39;, &#39;Reset Section&#39; and &#39;Reset All&#39;. After making all the changes in Theme Options, you can save everything by clicking on &#39;Save Changes&#39; button. In theme options, all options are in the form of tabs, viz; &#39;General Settings&#39;, &#39;Header&#39; etc. You can click on &#39;General Settings&#39; (or any other tab) and make changes therein. Now, if want to get back all default data of specific section i.e: &#39;General Settings&#39; (or any other section), then you should click on &#39;Reset Section&#39;. Now, if you want to get back to default data/setting for all the Theme Options, then you need to click on &#39;Reset All&#39;.</p>
+
+<p><img alt="" src="images/save-reset.png" /></p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Layout">
+<h3 class="content-element-item-title">Layout</h3>
+
+<p>This section contain the following options:</p>
+
+<p><img alt="" src="images/layout.png" /></p>
+
+<p><strong>Layout Type:</strong> Select layout type. (Note: Please set "Row stretch" to "Default" from WPBakery Page Builder "Row Settings"/"Section Settings" for "Boxed" layout.)</p>
+
+<p><strong>Body Background Color:</strong> Choose a background for the theme. (Note: This can be overright by setting section background color.)</p>
+
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Color">
+<h3 class="content-element-item-title">Color</h3>
+
+<p>This section contain the following options:</p>
+
+<p><img alt="" src="images/color.png" /></p>
+
+<p><strong>Color Scheme Type:</strong> We've some predefined Theme Color. You can use those Theme Color by choosing 'Predefined Color' in this field. If you want custom color, then choose 'Custom Color'.</p>
+
+<p><strong>Select Theme Color:</strong> Choose theme color.</p>
+
+</div>
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Favicon">
+<h3 class="content-element-item-title">Favicon</h3>
+
+<p><img alt="" src="images/logo-favicon.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<p><strong>Favicon:</strong> Here, you can upload your Favicon.</p>
+
+<p><strong>Apple Touch Icon:</strong> Here, you can upload your Apple Touch Icon.</p>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="FontStyle">
+<h3 class="content-element-item-title">Font Style</h3>
+
+<p><img alt="" src="images/fonts.png" /></p>
+
+<p>You can change style of the Body text on &lsquo;<strong>General</strong>&rsquo; field. Also, you can change style for all of the Heading tags (H1, H2, H3, H4, H5 and H6) from their respective fields. For example, if you change style of H1, then H1 attributes will be changed throughout the site.</p>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="CustomSlug">
+<h3 class="content-element-item-title">Custom Slug</h3>
+
+<p><img alt="" src="images/custom-slug.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<p><strong>Portfolio:</strong> Here, you can rename the slug of the Portfolio.</p>
+
+<p><strong>Team:</strong> Here, you can rename the slug of the Team.</p>
+
+<p><strong>Case Study:</strong> Here, you can rename the slug of the Case Study.</p>
+
+<p>Make sure to regenerate permalinks, after making slug changes.</p>
+</div>
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Preloader">
+<h3 class="content-element-item-title">Preloader</h3>
+
+<p>This section contain the following options:</p>
+
+<p><img alt="" src="images/preloader.png" /></p>
+
+<p><strong>Activate Preloader:</strong> Choose if you want to activate Preloader for your site or not. If you have chosen &lsquo;Yes&rsquo;, then you will get these options--</p>
+
+<ol style="padding:0 0 0 15px;">
+	<li><strong>Preloader Style:</strong> Select Style of the Preloader.</li>
+	<li><strong>Preloader Background Color:</strong> Pick a background color for the Preloader.</li>
+	<li><strong>Preloader Color:</strong> Pick a color for the Preloader.</li>
+	<li><strong>Preloader Timeout:</strong> Select Preloader Timeout.</li>
+</ol>
+
+<p></p>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ScrollToTop">
+<h3 class="content-element-item-title">Scroll To Top</h3>
+
+<p>This section contain the following options:</p>
+
+<p><img alt="" src="images/scroll-to-top.png" /></p>
+
+<p><strong>You will get these options:</strong></p>
+
+<ol style="padding:0 0 0 15px;">
+    <li><strong>Activate Scroll To Top:</strong> Choose, if you want to display &#39;Scroll To Top&#39; or not.</li>
+	<li><strong>Direction:</strong> Select Direction of the Scroll to Top.</li>
+	<li><strong>Background Color:</strong> Pick a background color for the Scroll to Top.</li>
+</ol>
+
+<p></p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="GDPRNotice">
+<h3 class="content-element-item-title">GDPR Notice</h3>
+
+<p>This section contain the following options:</p>
+
+<p><img alt="" src="images/gdprnotice.png" /></p>
+
+<p><strong>You will get these options:</strong></p>
+
+<ol style="padding:0 0 0 15px;">
+    <li><strong>Activate GDPR Notice:</strong> Choose if want to activate GDPR Notice or not.</li>
+	<li><strong>Background Color:</strong> Pick a background color for the GDPR Notice.</li>
+	<li><strong>GDPR Notice Typography:</strong> Provide Typography for GDPR Notice.</li>
+	<li><strong>GDPR Notice Content:</strong> Enter content to show on GDPR Notice.</li>
+	<li><strong>GDPR Notice Button Text:</strong> Enter Button Text for GDPR Notice button.</li>
+	<li><strong>GDPR Notice Button Link:</strong> Enter Button Link for GDPR Notice button.</li>
+</ol>
+
+<p></p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="SettingUpHeader">
+<h3 class="content-element-item-title">Header</h3>
+
+<p><strong style="font-size:20px;">General</strong></p>
+
+<p><strong>Header Style:</strong> We&rsquo;ve mainly 12 different types of headers with 1 'Default Style'. Also, we&rsquo;ve lots of sub options within every header style. You can create every possible header by managing those options. You can manage options for specific header from specific header settings. For example, you can change options for 'Default Style' from 'Header Default Settings' and 'Style One' from 'Header One Settings' and so on. There, you can change Logo, Retina logo and also all the other options. Also, you will get 'Header Shopping Cart Settings' which is applicable for all of your header except 'Default Style'. If you want to display Cart basket in your header, then you need to choose 'Yes' on 'Display Cart Icon' field.</p>
+<p><strong>1) Options for Style Default: </strong></p>
+<p><img alt="" src="images/header-style-default.png" /></p>
+<div class="subtext_inner">
+<p><strong>Main Header Background Color:</strong> Provide the Background Color for the main Header section.</p>    
+</div>
+
+<p><strong>2) Options for Style One: </strong></p>
+<p><img alt="" src="images/header-style-one.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Main Header Border Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+<p><strong>3) Options for Style Two: </strong></p>
+<p><img alt="" src="images/header-style-two.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+</div>
+
+<p><strong>4) Options for Style Three: </strong></p>
+<p><img alt="" src="images/header-style-three.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>    
+<p><strong>Top Header Background Color:</strong> Provide Background Color of the top header section.</p>
+<p><strong>Top Header Border Color:</strong> Provide Border Color of the top header section.</p>
+<p><strong>Enter Contact Phone:</strong> Provide Phone Number, right here.</p>
+<p><strong>Enter Contact Email:</strong> Provide Email ID, right here.</p>
+<p><strong>Main Header Background Color:</strong> Provide the Background Color for the main Header section.</p>
+<p><strong>Main Header Border Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+<p><strong>5) Options for Style Four: </strong></p>
+<p><img alt="" src="images/header-style-four.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+<p><strong>6) Options for Style Five: </strong></p>
+<p><img alt="" src="images/header-style-five.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+<p><strong>7) Options for Style Six: </strong></p>
+<p><img alt="" src="images/header-style-six.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+</div>
+
+<p><strong>8) Options for Style Seven: </strong></p>
+<p><img alt="" src="images/header-style-seven.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Display Menu:</strong> Choose if you want to display menu or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose everything related to Fonts of the Menu on &lsquo;<strong>Menu Typography</strong>&rsquo; field.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+</div>
+
+<p><strong>9) Options for Style Eight: </strong></p>
+<p><img alt="" src="images/header-style-eight.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Main Header Border Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Action Button Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+</div>
+
+<p><strong>10) Options for Style Nine: </strong></p>
+<p><img alt="" src="images/header-style-nine.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Enter Contact Email:</strong> Provide Email ID, right here.</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Cart Icon Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+</div>
+
+<p><strong>11) Options for Style Ten: </strong></p>
+<p><img alt="" src="images/header-style-ten.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Top Header Background Color:</strong> Provide Background Color of the top header section.</p>
+<p><strong>Enter Contact Phone:</strong> Provide Phone Number, right here.</p>
+<p><strong>Enter Contact Email:</strong> Provide Email ID, right here.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+<p><strong>12) Options for Style Eleven: </strong></p>
+<p><img alt="" src="images/header-style-eleven.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Display Action Button One:</strong> Choose if you want 1st button in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose button color on &lsquo;<strong>Action Button One Color</strong>&rsquo; field, button text on &lsquo;<strong>Action Button One Text</strong>&rsquo; field and button link on &lsquo;<strong>Action Button One Link</strong>&rsquo; field.</p>
+<p><strong>Display Action Button Two:</strong> Choose if you want 2nd button in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose button color on &lsquo;<strong>Action Button Two Color</strong>&rsquo; field, button text on &lsquo;<strong>Action Button Two Text</strong>&rsquo; field and button link on &lsquo;<strong>Action Button Two Link</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+<p><strong>13) Options for Style Twelve: </strong></p>
+<p><img alt="" src="images/header-style-twelve.png" /></p>
+<div class="subtext_inner">
+<p><strong>Floating Option:</strong> Choose if you want the header to be floated.</p>
+<p><strong>Top Header Background Color:</strong> Provide Background Color of the top header section.</p>
+<p><strong>Enter Contact Phone:</strong> Provide Phone Number, right here.</p>
+<p><strong>Enter Contact Email:</strong> Provide Email ID, right here.</p>
+<p><strong>Main Header Background Color:</strong> Provide Background Color of the main header section.</p>
+<p><strong>Sticky Option:</strong> Choose if you want the header to be "Sticky" or not. If you have chosen &lsquo;Yes&rsquo;, then you can specify background color of sticky header on &lsquo;<strong>Main Header Background Color</strong>&rsquo; field.</p>
+<p><strong>Logo:</strong> Upload your site logo.</p>
+<p><strong>Retina Logo:</strong> Upload your Retina Logo which should be 2x larger than original Logo. Your logo name should be "your existing logo name on "Logo" field@2x.your existing logo extension on "Logo" field". For example, if your "Logo" name is "logo.png", then your Retina logo name should be "logo@2x.png".</p>
+<p><strong>Menu Typography:</strong> Choose everything related to Fonts of the Menu.</p>
+<p><strong>Submenu Typography:</strong> Choose everything related to Fonts of the Sub-Menu.</p>
+<p><strong>Menu Hover Color:</strong> Specify Hover color of the menu.</p>
+<p><strong>Search Icon / Mobile Menu Icon / Cart Icon / Hamburger Icon Size:</strong> Select action button size.</p>
+<p><strong>Cart Icon Color:</strong> Select cart icon colo.</p>
+<p><strong>Display Search:</strong> Choose, if you want to display &#39;Search&#39; or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose icon color on &lsquo;<strong>Search Icon Color</strong>&rsquo; field, you can specify Search Style on &lsquo;<strong>Select Search Style</strong>&rsquo; field. If you choose 'Flyout Search' on 'Select Search Style' field, then you can specify the background color of the search on <strong>Choose Search Background Color</strong> field.</p>
+<p><strong>Display Hamburger Menu:</strong> Choose if you want "Hamburger" option in header or not. If you have chosen &lsquo;Yes&rsquo;, then you can choose if you want "Hamburger" option on mobile or not on  &lsquo;<strong>Display Hamburger Menu On Mobile</strong>&rsquo; field, you can Select Style of the Hamburger Menu Icon on &lsquo;<strong>Select Hamburger Menu Icon</strong>&rsquo; field, you can select Hamburger Icon Color on &lsquo;<strong>Hamburger Icon Color</strong>&rsquo; field, you can select hamburger menu width on &lsquo;<strong>Hamburger Menu Width</strong>&rsquo; field and you can pick Background Color for Hamburger Menu on &lsquo;<strong>Hamburger Menu Background Color</strong>&rsquo; field.</p>
+<p><strong>Mobile Menu Icon Color:</strong> Select mobile menu icon color.</p>
+<p><strong>Select Mobile Menu Displace:</strong> Select displace of the Menu.</p>
+</div>
+
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="Shortheader">
+<h3 class="content-element-item-title">Short Header</h3>
+
+<p><img alt="" src="images/inner-banner.png" /></p>
+
+<p>Here, you can change manage short header for all the inner pages. This section contains the following options:</p>
+
+<p><strong>Select Short Header:</strong> Here, you can select short header style for all pages.</p>
+
+<p><strong>Inner Page Banner Background:</strong> If you want a common banner for all inner pages, then you need to add banner image, right here.</p>
+
+<p><strong>Inner Banner Border Bottom:</strong> Set Border Bottom color for Inner Banner.</p>
+
+<p><strong>Inner Banner Padding:</strong> Set Padding for Inner Banner.</p>
+
+<p><strong>Inner Page Banner Title Font:</strong> Choose everything related to the fonts of &lsquo;Banner Title&rsquo;.</p>
+
+<p><strong>Inner Page Banner Subtitle Font:</strong> If you have Banner Subtitle, then you can choose everything related to fonts of Banner Subtitle from here.</p>
+
+<p><strong>Inner Page Banner Alignment:</strong> Select Alignment for the Banner.</p>
+
+<p><strong>Breadcrumb Arrow Style:</strong> Select icon for the arrow of the Breadcrumb.</p>
+
+<p><strong>Inner Page Banner Breadcrumb Font:</strong> Select all font details for Breadcrumb.</p>
+
+<p><strong>Breadcrumb Padding:</strong> Set padding for Breadcrumb.</p>
+
+<p><strong>Breadcrumb Alignment:</strong> Select Alignment of the Breadcrumb.</p>
+</div>
+
+<div class="content-element-item" id="FooterOptions">
+<h3 class="content-element-item-title">Footer</h3>
+
+<p><strong>Footer Style:</strong> We&rsquo;ve 11 different styles of footer. You can manage options for specific footer from specific footer settings. For example, you can change options for 'Style One' from 'Footer One Settings', 'Style Two' from 'Footer Two Settings' and so on.</p>
+
+<p><strong style="font-size:20px; padding-top:20px;">Manage Widgets</strong></p>
+
+<p>To set up Widgets, navigate to Appearance &gt; Widgets. Here, you will see that there are lots of sidebars. Out of these sidebars, &quot;Footer | #1&quot;, &quot;Footer | #2&quot;, &quot;Footer | #3&quot;, &quot;Footer | #4&quot; are used for the Footer Widget Block.</p>
+
+<p><img alt="" src="images/footer-widgets.png" /></p>
+
+<p>You can use any widget from the &lsquo;Available Widgets&rsquo; section and drag those widgets to &ldquo;Footer | #1&rdquo; to &ldquo;Footer | #4&rdquo; or click on the widgets from the &lsquo;Available Widgets&rsquo; section and then select the desired location.</p>
+
+<p>If you want to change the footer section from four columns to three columns, use three sidebars from &quot;Footer | #1&quot; to &quot;Footer | #4&quot;; similarly if you want two columns, use two sidebars from &quot;Footer | #1&quot; to &quot;Footer | #4&quot; and if you want 1 column, use one sidebar from &quot;Footer | #1&quot; to &quot;Footer | #4&quot;.</p>
+
+<p>So, each sidebar from &quot;Footer | #1&quot; to &quot;Footer | #4&quot; represents a column.</p>
+
+<p>6 Custom Widgets has been specially created us. You can add those widgets anywhere. Here are the details about those widgets--</p>
+
+<div class="sub_text">
+    
+<p><strong>1) Unbound Contact Box--</strong></p>
+
+<p><img alt="" src="images/contact-widget.png" /></p>
+
+<p>You can add a Contact box from this widget. You can add title on &lsquo;<strong>Title</strong>&rsquo; field, contact address on &lsquo;<strong>Address</strong>&rsquo; field, Phone Number on &lsquo;<strong>Phone Number</strong>&rsquo; field and email id on &lsquo;<strong>Email ID</strong>&rsquo; field.</p>
+
+<p><strong>2) Unbound Facebook Page Box--</strong></p>
+
+<p><img alt="" src="images/facebook-widget.png" /></p>
+
+<p>This widget contains the following options:</p>
+
+<div class="subtext_inner">
+<ol>
+	<li><strong>Page URL:</strong> Provide your Facebook Page URL.</li>
+	<li><strong>Tabs:</strong> Specify what you want to show.</li>
+	<li><strong>Width:</strong> Provide Facebook box width.</li>
+	<li><strong>Height:</strong> Provide Facebook box Height.</li>
+	<li>Use the small header instead: Choose if you want small header or not.</li>
+	<li>Try to fit inside the container width: Choose if you want to fit Facebook posts within container width or not.</li>
+	<li>Hide cover photo in the header: Chose if you want to hide cover photo from Facebook page header or not.</li>
+	<li>Show profile photos when friends like this: Choose if you want to show profile photos (when friends like those photos) or not.</li>
+</ol>
+</div>
+
+<p><strong>3) Unbound Recent Posts With Thumbnail Widget--</strong></p>
+
+<p><img alt="" src="images/recent-posts-widget.png" /></p>
+
+<p>You can add a list(s) of &lsquo;Recent Posts&rsquo; box from this widget. You can add title of the widget on the &lsquo;<strong>Title</strong>&rsquo; field and can specify the number of Posts to show on &lsquo;<strong>No. of Posts to show</strong>&rsquo; field.</p>
+
+<p><strong>4) Unbound Social-</strong> Here, you can add all of your Social Icons with link.</p>
+
+<p><strong>5) Unbound Twitter Widget--</strong></p>
+
+<p><img alt="" src="images/twitter-widget.png" /></p>
+
+<p>This widget contains the following options:</p>
+
+<div class="subtext_inner">
+<ol>
+	<li><strong>Username:</strong> Provide your Twitter Username.</li>
+	<li><strong>No. of Maximum Tweets:</strong> Specify the number of maximum tweets you wish to show.</li>
+	<li><strong>Enable Links:</strong> Choose if you want to enable links or not.</li>
+	<li><strong>Show User:</strong> Choose if you want to show user or not.</li>
+	<li><strong>Show Time:</strong> Choose if you want to show time or not.</li>
+	<li><strong>Show Images:</strong> Choose if you want to show images or not.</li>
+</ol>
+</div>
+</div>
+
+<p><strong>1) Options for Style One:</strong></p>
+<p><img alt="" src="images/footer-style-one.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>2) Options for Style Two:</strong></p>
+<p><img alt="" src="images/footer-style-two.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>3) Options for Style Three:</strong></p>
+<p><img alt="" src="images/footer-style-three.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>4) Options for Style Four:</strong></p>
+<p><img alt="" src="images/footer-style-four.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Navigation Background:</strong> Set Background Color for Navigation section.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>5) Options for Style Five:</strong></p>
+<p><img alt="" src="images/footer-style-five.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Navigation Background:</strong> Set Background Color for Navigation section.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>6) Options for Style Six:</strong></p>
+<p><img alt="" src="images/footer-style-six.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>7) Options for Style Seven:</strong></p>
+<p><img alt="" src="images/footer-style-seven.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>8) Options for Style Eight:</strong></p>
+<p><img alt="" src="images/footer-style-eight.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Logo:</strong> Provide logo for copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+<p><strong>Contact Address:</strong> Provide Contact Address.</p>
+</div>
+
+<p><strong>9) Options for Style Nine:</strong></p>
+<p><img alt="" src="images/footer-style-nine.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Navigation Background:</strong> Set Background Color for Navigation section.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>10) Options for Style Ten:</strong></p>
+<p><img alt="" src="images/footer-style-ten.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Main Border Bottom Color:</strong> Set Border Bottom Color for Footer Main section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+<p><strong>11) Options for Style Eleven:</strong></p>
+<p><img alt="" src="images/footer-style-eleven.png" /></p>
+<div class="subtext_inner">
+<p><strong>Footer Background:</strong> Set Background Color or Image.</p>
+<p><strong>Footer Main Background:</strong> Set Background Color for Footer Main section i.e: Widgets section.</p>
+<p><strong>Footer Copyright Background:</strong> Set Background Color for Copyright section.</p>
+<p><strong>Copyright Text:</strong> Provide Copyright Text.</p>
+</div>
+
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="HomePageElements">
+<h3 class="content-element-item-title">Elements Style</h3>
+
+<p>Here, you can change every possible CSS style of 'Scrool Bar', 'Button' and 'Contact Form' Element.</p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="SettingUp404Page">
+<h3 class="content-element-item-title">Error 404</h3>
+
+<p><img alt="" src="images/404.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<p><strong>404 Page Style:</strong> We&rsquo;ve 4 different styles of 404 page. You can manage options for specific 404 page style from specific 404 settings. For example, you can change options for 'Style One' from '404 Error Style One Settings', 'Style Two' from '404 Error Style One Settings' and so on.</p>
+
+<p><strong>1) Options for Style One:</strong></p>
+<p><img alt="" src="images/404-style-one.png" /></p>
+<div class="subtext_inner">
+<p><strong>404 Error Background:</strong> Here, you can add custom background of &lsquo;404 error&rsquo; page.</p>
+<p><strong>404 Error Image:</strong> Here, you can add  404 error image for your website.</p>
+<p><strong>404 Page Content:</strong> Here, you can add the content for 404 error page.</p>
+<p><strong>404 Error Button Text:</strong> Here, you can provide text of the button for 404 error page.</p>
+<p><strong>404 Error Button Link:</strong> Here, you can provide link of the button for 404 error page.</p>
+</div>
+
+<p><strong>2) Options for Style Two:</strong></p>
+<p><img alt="" src="images/404-style-two.png" /></p>
+<div class="subtext_inner">
+<p><strong>404 Error Background:</strong> Here, you can add custom background of &lsquo;404 error&rsquo; page.</p>
+<p><strong>404 Error Image:</strong> Here, you can add  404 error image for your website.</p>
+<p><strong>404 Page Content:</strong> Here, you can add the content for 404 error page.</p>
+<p><strong>404 Error Button Text:</strong> Here, you can provide text of the button for 404 error page.</p>
+<p><strong>404 Error Button Link:</strong> Here, you can provide link of the button for 404 error page.</p>
+</div>
+
+<p><strong>3) Options for Style Three:</strong></p>
+<p><img alt="" src="images/404-style-three.png" /></p>
+<div class="subtext_inner">
+<p><strong>404 Error Background:</strong> Here, you can add custom background of &lsquo;404 error&rsquo; page.</p>
+<p><strong>404 Error Image:</strong> Here, you can add  404 error image for your website.</p>
+<p><strong>404 Page Content:</strong> Here, you can add the content for 404 error page.</p>
+<p><strong>404 Error Button Text:</strong> Here, you can provide text of the button for 404 error page.</p>
+<p><strong>404 Error Button Link:</strong> Here, you can provide link of the button for 404 error page.</p>
+</div>
+
+<p><strong>4) Options for Style Four:</strong></p>
+<p><img alt="" src="images/404-style-four.png" /></p>
+<div class="subtext_inner">
+<p><strong>404 Error Background:</strong> Here, you can add custom background of &lsquo;404 error&rsquo; page.</p>
+<p><strong>404 Error Image:</strong> Here, you can add  404 error image for your website.</p>
+<p><strong>404 Page Content:</strong> Here, you can add the content for 404 error page.</p>
+<p><strong>404 Error Button Text:</strong> Here, you can provide text of the button for 404 error page.</p>
+<p><strong>404 Error Button Link:</strong> Here, you can provide link of the button for 404 error page.</p>
+</div>
+
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="Maintenance">
+<h3 class="content-element-item-title">Maintenance Mode</h3>
+
+<p><img alt="" src="images/maintenance-mode.png" /></p>
+
+<p><strong>Activate Maintenance Mode?:</strong> Choose, if you want to acticvate Maintenance Mode in your site or not.</p>
+
+<p><strong>Maintenance Mode Style:</strong> We&rsquo;ve different styles of Maintenance Mode. You can manage options for specific Maintenance Mode style from specific Maintenance Mode settings. For example, you can change options for 'Style One' from 'Maintenance Mode Style One Settings', 'Style Two' from 'Maintenance Mode Style Two Settings' and so on.</p>
+
+<p><strong>1) Options for Style One:</strong></p>
+<p><img alt="" src="images/maintenance-mode-style-one.png" /></p>
+<div class="subtext_inner">
+<p><strong>Maintenance Mode Background:</strong> Here, you can upload background image for Maintenance Mode Page.</p>
+<p><strong>Maintenance Mode Content:</strong> Here, you can add content for Maintenance Mode Page.</p>
+</div>
+
+<p><strong>2) Options for Style Two:</strong></p>
+<p><img alt="" src="images/maintenance-mode-style-two.png" /></p>
+<div class="subtext_inner">
+<p><strong>Maintenance Mode Background:</strong> Here, you can upload background image for Maintenance Mode Page.</p>
+<p><strong>Maintenance Mode Content:</strong> Here, you can add content for Maintenance Mode Page.</p>
+</div>
+
+<p><strong>3) Options for Style Three:</strong></p>
+<p><img alt="" src="images/maintenance-mode-style-three.png" /></p>
+<div class="subtext_inner">
+<p><strong>Maintenance Mode Background:</strong> Here, you can upload background image for Maintenance Mode Page.</p>
+<p><strong>Maintenance Mode Content:</strong> Here, you can add content for Maintenance Mode Page.</p>
+</div>
+
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="comingsoon">
+<h3 class="content-element-item-title">Coming soon</h3>
+
+<p><img alt="" src="images/coming-soon.png" /></p>
+
+<p><strong>Activate Coming Soon:</strong> Choose, if you want to acticvate Coming Soon Mode in your site or not.</p>
+<p><strong>Launch Date & Time:</strong> Enter Launch Date & Time of your site to show countdown.</p>
+<p><strong>Coming Soon Style:</strong> We&rsquo;ve different styles of Coming Soon Mode. You can manage options for specific Coming Soon Mode style from specific Coming Soon Mode settings. For example, you can change options for 'Style One' from 'Coming Soon Style One Settings', 'Style Two' from 'Coming Soon Style Two Settings' and so on.</p>
+
+<p><strong>1) Options for Style One:</strong></p>
+<p><img alt="" src="images/coming-soon-style-one.png" /></p>
+<div class="subtext_inner">
+<p><strong>Coming Soon Background:</strong> Upload background image of Coming Soon Page.</p>
+<p><strong>Coming Soon Content:</strong> Provide content for Coming Soon Page.</p>
+</div>
+
+<p><strong>2) Options for Style Two:</strong></p>
+<p><img alt="" src="images/coming-soon-style-two.png" /></p>
+<div class="subtext_inner">
+<p><strong>Coming Soon Background:</strong> Upload background image of Coming Soon Page.</p>
+<p><strong>Coming Soon Content:</strong> Provide content for Coming Soon Page.</p>
+</div>
+
+<p><strong>3) Options for Style Three:</strong></p>
+<p><img alt="" src="images/coming-soon-style-three.png" /></p>
+<div class="subtext_inner">
+<p><strong>Coming Soon Background:</strong> Upload background image of Coming Soon Page.</p>
+<p><strong>Coming Soon Content:</strong> Provide content for Coming Soon Page.</p>
+</div>
+
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="Search">
+<h3 class="content-element-item-title">Search</h3>
+
+<p><img alt="" src="images/search.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<p><strong>Search Page Banner Image:</strong> Here, you can upload custom banner image for short header of search page.</p>
+<p><strong>Search Page Title:</strong> Here, you can provide custom title for short header of search page.</p>
+<p><strong>Search Page Subtitle:</strong> Here, you can provide custom subtitle for short header of search page.</p>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="BlogLayoutOption">
+<h3 class="content-element-item-title">Blog Layout</h3>
+
+<p><img alt="" src="images/blog-layout.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<div class="sub_text">
+<p><strong>Blog Style:</strong> You will get 6 different blog styles that will show on Blog page(First one is default). You can select any of them.</p>
+
+<p><strong>Blog Layout</strong>: You will get 3 different styles of &lsquo;Blog Layout&rsquo; i.e; Sidebar (Left Sidebar, No Sidebar and Right Sidebar). You can select any of them.</p>
+
+<p>You can manage your &lsquo;Blog Sidebar&rsquo; by navigating to &ldquo;Appearance &gt; Widgets&rdquo;.</p>
+
+<p><img alt="" src="images/blog-sidebar.png" /></p>
+
+<p><strong style="font-size:20px;">Blog Options</strong></p>
+
+<p><img alt="" src="images/blog-options.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<p><strong>Author Information Box:</strong> Choose if you want to display Author Information Box or not on Blog Details Page.</p>
+
+<p><strong>Categories:</strong> Choose if you want to display the Categories or not on both Blog page and Blog Details Page.</p>
+
+<p><strong>Tags:</strong> Choose if you want to display the Tags or not on both Blog Page and Blog Details Page.</p>
+
+<p><strong>Navigation:</strong> Choose if you want to display the Previous/Next Navigation or not on Blog Details Page.</p>
+
+<p><strong>Related Article:</strong> Choose if you want to display the Related Article or not on Blog Details Page.</p>
+
+<p><strong>Comments:</strong> Choose if you want to display Comments or not on Blog Details Page.</p>
+
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="TeamDetails">
+<h3 class="content-element-item-title">Team Details</h3>
+
+<p><img alt="" src="images/team-details.png" /></p>
+
+<p>This section contains the following options:</p>
+
+<div class="sub_text">
+<p><strong>Team Details Style:</strong> Select which style you want in your team details page.</p>
+
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Shop">
+<h3 class="content-element-item-title">Shop</h3>
+
+<p><strong style="font-size:20px;">Product Listing</strong></p>
+
+<p><img alt="" src="images/product-listing.png" /></p>
+
+<div class="sub_text">
+<p><strong>Product Listing Layout:</strong> You will get 4 different styles of &lsquo;Product Listing&rsquo; which will show on &lsquo;Shop&rsquo; page. You can select any of them.</p>
+
+<p><strong>Products Per Page:</strong> Specify the number of products you want to show per page.</p>
+
+<p><strong>Sidebar:</strong> You will get 3 different styles of &lsquo;Sidebar&rsquo; i.e; Left Sidebar, No Sidebar and Right Sidebar for &lsquo;Shop&rsquo; page. You can select any of them.</p>
+
+<p><strong>Shop Box Style:</strong> You will get different styles of Product boxes. You can select any of them.</p>
+</div>
+
+<p><strong style="font-size:20px;">Product Details</strong></p>
+
+<p><img alt="" src="images/product-details.png" /></p>
+
+<p><strong>Product Listing Layout:</strong> You will get 3 different styles of &lsquo;Product Details&rsquo; which will show on &lsquo;Product Details&rsquo; page. You can select any of them.</p>
+
+<p><strong>Sidebar:</strong> You will get 3 different styles of &lsquo;Sidebar&rsquo; i.e; Left Sidebar, No Sidebar and Right Sidebar for &lsquo;Shop Details&rsquo; page. You can select any of them.</p>
+
+<p>For both &lsquo;Shop&rsquo; page and &lsquo;Shop Details&rsquo; page, same sidebar is visible. So, you can manage the sidebar in both the places by managing &lsquo;Product | Sidebar&rsquo; from &ldquo;Appearance &gt; Widgets&rdquo;.</p>
+
+<p><img alt="" src="images/shop-sidebar.png" /></p>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="CustomCSS">
+<h3 class="content-element-item-title">Custom CSS</h3>
+
+<p><img alt="" src="images/customcss.png" /></p>
+
+<p>Here, you can add all your own CSS style.</p>
+
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="SocialIcons">
+<h3 class="content-element-item-title">Social Icons</h3>
+
+<p><img alt="" src="images/social-icons.png" /></p>
+
+<p>Here, you can add all your social links. If you leave any social link blank, then that social icon will not show on the site.</p>
+
+<p>Choose &lsquo;On&rsquo;, if you want to open your social link on a new window, on &lsquo;<strong>Open links in new window</strong>&rsquo; field.</p>
+</div>
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ImportExport">
+<h3 class="content-element-item-title">Import/Export</h3>
+<img alt="" src="images/import-export.png" />
+<p>You can Import/Export all the values of &lsquo;Theme Options&rsquo; from here. In any case, if you want to restore/download the entire &quot;Theme Options&rdquo;, you can do it easily from the Import/Export section.</p>
+
+<p>You can copy/download your current &lsquo;option settings&rsquo; from &lsquo;<strong>Export Options</strong>&rsquo; and can import this on &lsquo;<strong>Import Options</strong>&rsquo;.</p>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="Elements">
+<h3 class="content-element-item-title">Elements</h3>
+
+<p>While creating a page with &ldquo;WpBakery Page Builder&rdquo;, you will view &lsquo;Radiant Elements&rsquo;. This is the most important feature of your site as you can add almost all sections from here. You can add any element from &lsquo;Radiant Elements&rsquo; in the page, Blog post, Team and Portfolio etc.. You can add a section by clicking on that specific element of &lsquo;Radiant Elements&rsquo;. For example, if you want to add a &lsquo;Blog&rsquo; section in your page, then you need to click on the &lsquo;Blog&rsquo; element, for automatically creating that particular section.</p>
+<img alt="" src="images/radiant-elements.png" />
+<p>By following this tutorial you can easily manage all of your elements.</p>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Accordion">
+<h3 class="content-element-item-title">Accordion</h3>
+
+<p>From &lsquo;Accordion&rsquo; element, you can add an accordion or toggle with title and description.</p>
+
+<p>Follow the steps to add an Accordion element---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Click on &lsquo;Accordion&rsquo;. Select any Style out of different styles from 'Select Accordion Style' field. Choose color from 'Color Scheme' field (If not selected, it will take theme default color). If you require, you can use 2 specific fields, viz; &lsquo;<strong>Extra class name for the container</strong>&rsquo; , &lsquo;<strong>Element ID</strong>&rsquo;.</li>
+	<img alt="" src="images/accordion-box.png" />
+	<li>You can add your own CSS styles in the Tab - &lsquo;<strong>Design</strong>&rsquo;.</li>
+	<img alt="" src="images/accordion-styles.png" />
+	<li>After providing all the details, click on &lsquo;Save Changes&rsquo; to save. Now, to add accordion items, click on &ldquo;plus(+)&rdquo; sign.</li>
+	<img alt="" src="images/accordion-item-add.png" />
+	<li>To add an item, click on &lsquo;Accordion Item&rsquo;.</li>
+	<img alt="" src="images/accordion-item.png" />
+	<li>Provide title and content - (You can use HTML tags) for that particular item.</li>
+	<img alt="" src="images/accordion-add-item.png" />
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="AlertBox">
+<h3 class="content-element-item-title">Alert Box</h3>
+
+<p>By using &lsquo;Alert Box&rsquo; element, you can add an alert box with content.</p>
+
+<p><img alt="" src="images/alert-box.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Select Style:</strong> As there is only one style by-default, you don’t have to select any.</li>
+	<li><strong>Select Type:</strong> Select which type of alert you want to display.</li>
+	<li><strong>Is Dismissible?:</strong> If you want cross sign, then choose 'Yes'.</li>
+	<li><strong>Type Alert Title:</strong> Provide the title of the alert, right here.</li>
+	<li><strong>Type Alert Text:</strong> Provide the content of the alert, right here.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the button. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="AnimatedLink">
+<h3 class="content-element-item-title">Animated Link</h3>
+
+<p>By using &lsquo;Animated Link&rsquo; element, you can create Animated Link. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+
+<p><img alt="" src="images/animatedlink-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Animated Link Style:</strong> Select any Animated Link Style out of different styles.</li>
+	<li><strong>Animated Link Color:</strong> Set your Animated Link Icon Color.</li>
+	<li><strong>Link:</strong> Provide button url, right here.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the button. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/animatedlink-design.png" /></p>
+
+<p><strong>Design Options:</strong><br />
+Here you can change the CSS style of the whole Animated Link.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="BeforeAfter">
+<h3 class="content-element-item-title">Before-After</h3>
+
+<p>By using &lsquo;Before-After&rsquo; element, you can add a section with &lsquo;before image&rsquo; and &lsquo;after image&rsquo;.</p>
+<img alt="" src="images/before-after.png" />
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Before After Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Before image:</strong> You need to provide the &lsquo;Before Image&rsquo;, right here.</li>
+	<li><strong>After image:</strong> You need to provide the &lsquo;After Image&rsquo;, right here.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the &lsquo;before-after&rsquo; box. You can select any one of them or just leave without any animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="Blockquote">
+<h3 class="content-element-item-title">Blockquote</h3>
+
+<p>By using &lsquo;Blockquote&rsquo; element, you can create a Blockquote box with content and a Blockquote icon. Here, you will get 3 tabs: viz; i) General ii) Appearance and iii) Design Options.</p>
+<img alt="" src="images/blockquote-general.png" />
+<p>Attributes for <strong>General</strong>:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Blockquote Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Author:</strong> Provide name of the Author.</li>
+	<li><strong>Content:</strong> You can add your content here. You can use HTML tags.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the &lsquo;Blockquote&rsquo; box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+<img alt="" src="images/blockquote-appearance.png" /></div>
+
+<p>Attributes for <strong>Appearance</strong>:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Font Color:</strong> Choose font color of the text.</li>
+	<li><strong>Icon Color:</strong> Specify blockquote icon color.</li>
+</ol>
+
+
+<img alt="" src="images/blockquote-design.png" /></div>
+
+<p>Attributes for <strong>Design Options</strong>:<br/>
+Here you can change the CSS style of the Blockquote.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="Blog">
+<h3 class="content-element-item-title">Blog</h3>
+
+<p>By using &lsquo;Blog&rsquo; element, you can add a blog section with blog posts.</p>
+<img alt="" src="images/blog-element.png" />
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Blog Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Color Scheme:</strong> Set your blog color scheme.</li>
+	<li><strong>Carousel:</strong> Choose, whether or not, you want to activate carousel. If you choose &lsquo;No&rsquo;, then the options, viz; <strong>&lsquo;Allow Navigation?&rsquo;, &lsquo;Navigation Style&rsquo;, &lsquo;Allow Dots for Navigation?&rsquo;, &lsquo;Navigation Dot Style&rsquo;, &lsquo;Allow Loop&rsquo;, &lsquo;Allow Autoplay?&rsquo; and &lsquo;Autoplay Timeout (in milliseconds)&rsquo;</strong> will be deactivated and if you choose &ldquo;Yes&rdquo;, then these options would stay and the Carousel would operate/function properly.
+	<div class="subtext_inner">
+	<p><strong>i) Allow Navigation?:</strong> Choose, if you want to show or hide navigation. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Navigation Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the navigation would operate/function properly.</p>
+
+	<p><strong>ii) Navigation Style:</strong> Choose from navigation styles for showing different styles for arrow.</p>
+
+	<p><strong>iii) Allow Dots for Navigation? :</strong> Choose, if you want to show dots for navigation. If you choose &lsquo;No&rsquo;, then the &lsquo;<strong>Navigation Dot Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the dots for navigation would operate/function properly.</p>
+
+	<p>iv) <strong>Navigation Dot Style:</strong> Choose style for showing &lsquo;Navigation Dot Style&rsquo;.</p>
+
+	<p>v) <strong>Allow Loop:</strong> Choose, if you want to enable the loop or not. If you have 5 posts, and if you choose &lsquo;No&rsquo;, the loop will stop after showing those 5 specific posts and if you select &ldquo;Yes&rdquo;, the loop will continue to run.</p>
+
+	<p><strong>vi) Allow Autoplay?:</strong> Choose, if you want to autoplay your carousel or not. If you choose &lsquo;No&rsquo;, then &lsquo;Autoplay Timeout (in seconds)&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the Autoplay would operate/function properly.</p>
+
+	<p><strong>vii) Autoplay Timeout (in milliseconds):</strong> Specify the number of milliseconds for an autoplay timeout, i.e: the duration after which the scroll will start.</p>
+	</div>
+	</li>
+	<li><strong>Category:</strong> If you want to display posts for a specific category, then choose that particular category or choose &lsquo;All&rsquo; for showing posts for all categories.</li>
+	<li><strong>Order:</strong> Choose order for showing posts, i.e: Ascending or Descending.</li>
+	<li><strong>Order By:</strong> Choose the order of Posts.</li>
+	<li><strong>Count:</strong> Specify the number of posts you wish to show.</li>
+	<li><strong>Number of Posts on Desktop:</strong> Specify the number of posts you wish to show in desktop version.</li>
+	<li><strong>Number of Posts on Tab:</strong> Specify the number of posts you wish to show in tab version.</li>
+	<li><strong>Number of Posts on Mobile:</strong> Specify the number of posts you wish to show in mobile version.</li>
+	<li><strong>Add Animation?:</strong> If you want to activate animation, then tick 'Yes' on checkbox.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="CallToAction">
+<h3 class="content-element-item-title">Call To Action</h3>
+
+<p>By using &lsquo;Call To Action&rsquo; element, you can add a &lsquo;call to action&rsquo; section with text and button. Here, you will get 3 tabs: viz; i) General ii) Typography &amp; Color iii) Button Design.</p>
+<img alt="" src="images/call-to-action-general.png" />
+<p>Attributes for <strong>General:</strong></p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Call To Action Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Call To Action Title :</strong> You need to provide the title, right here.</li>
+	<li><strong>Title Align:</strong> Choose alignment of the title, right here.</li>
+	<li><strong>Call To Action Content:</strong> You need to provide content, right here.</li>
+	<li><strong>Call To Action Subtitle:</strong> You need to provide the subtitle, right here.</li>
+	<li><strong>Subtitle Align:</strong> You need to choose alignment of the subtitle, right here.</li>
+	<li><strong>Button Title:</strong> You need to provide the button title, right here.</li>
+	<li><strong>Button Link:</strong> You need to provide the button link, right here.</li>
+	<li><strong>Add Animation?:</strong> If you want to activate animation, then tick 'Yes' on checkbox.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+
+<p><strong style="font-size:20px;">Typography &amp; Color:</strong></p>
+<img alt="" src="images/call-to-action-typography.png" />
+<p>Here, you can change <strong>Background Color of call to action box, Overlay Color of call to action box, Title Color, Title Font Size (in px), Title Line Height (in px), Content Color, Content Font Size (in px), Content Line Height (in px), Subtitle Color, Subtitle Font Size (in px), Subtitle Line Height (in px), Button Title Color, Button Title Hover Color, Button Background Hover Color, Button Font Size (in px) and Button Font Weight</strong>.</p>
+
+<p><strong style="font-size:20px;">Button Design:</strong></p>
+<img alt="" src="images/call-to-action-button-design.png" />
+<p>Here you can manage the CSS style of button.</p>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="CaseStudy">
+<h3 class="content-element-item-title">Case Study</h3>
+
+<p>By using &lsquo;Case Study&rsquo;, you can add a Project section with Case Study items. Here, you will get 2 tabs: viz; i) General ii) Looping</p>
+
+<p><img alt="" src="images/case-study-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Case Study Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Case Study Display Filter:</strong> If you want to filter your 'Case Study items' with 'Case Study categories', then check &lsquo;Yes&rsquo;. After marking as &lsquo;Yes&rsquo;, these fields will be activated:
+	<div class="subtext_inner">
+	<p>i) <strong>Case Study Filter Style:</strong> Choose from 6 different styles.</p>
+	<p>ii) <strong>Case Study Filter Align:</strong> Choose alignment of the filter.</p>
+	</div>
+	If you choose 'No', this field will be activated:
+	<div class="subtext_inner">
+	<p><strong>Number of Case Studies:</strong> Specify the number of Case Studies you wish to show.</p>
+	</div>
+	</li>
+	<li><strong>Case Study Box Align:</strong> Choose alignment of the Case Study Box.</li>
+	<li><strong>Case Study Box Number:</strong> Specify the number of Case Studies you wish to show in a grid.</li>
+	<li><strong>Enable Zoom?:</strong> If you choose &lsquo;Yes&rsquo; here, then Case Studies will not be linked to Case Study details, but instead Case Studies will only &ldquo;zoom&rdquo;. If you choose &lsquo;No&rsquo;, then Case Studies will be linked to their &ldquo;details page&rdquo; and this field will be activated:
+	<p>i) <strong>Enable Link Button?:</strong> If you want to enable the button on Case Study with a link, then check &lsquo;Yes&rsquo;. After marking &lsquo;Yes&rsquo;, you can also provide text in button on &lsquo;Link Button Text&rsquo; field.</p>
+	</li>
+	<li><strong>Case Study Enable Title?:</strong> Choose if you want to show or hide title.</li>
+	<li><strong>Case Study Enable excerpt?:</strong> Choose if you want to show or hide excerpt.</li>
+	<li><strong>Spacing between Case Study Items:</strong> Provide spacing between 2 Case Study items.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/case-study-looping.png" /></p>
+
+<p>Attributes for <strong>Looping</strong>:<br />
+Here, you can select &lsquo;Order By&rsquo; and &lsquo;Sort Order&rsquo; of Case Study items.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="CaseStudiesSlider">
+<h3 class="content-element-item-title">Case Studies Slider</h3>
+
+<p>By using &lsquo;Case Studies Slider&rsquo;, you can add a Slider with case studies posts. Here, you will get 2 tabs: viz; i) General ii) Looping</p>
+
+<p><img alt="" src="images/case-studies-slider-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Case Studies Slider Style:</strong> Select Style.</li>
+	<li><strong>Case Studies Category:</strong> Put specific Case Studies Category slug name to display all posts under that specific Case Studies. If you want to display all posts, then put 'all'.</li>
+	<li><strong>Allow Loop:</strong> Choose, if you want to enable the loop or not. If you have 5 Case Studies posts, and if you choose &lsquo;No&rsquo;, the loop will stop after showing those 5 specific Case Studies posts and if you select &ldquo;Yes&rdquo;, the loop will continue to run.</li>
+	<li><strong>Allow Autoplay?:</strong> Choose, if you want to autoplay your carousel or not. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Autoplay Timeout (in seconds)</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the Autoplay would operate/function properly.</li>
+	<li><strong>Autoplay Timeout (in milliseconds):</strong> Specify the time in milliseconds for an autoplay timeout, i.e: the duration after which the scroll will start.</li>
+	<li><strong>Number of Items on Desktop:</strong> Specify the number of Case Studies items you wish to show in a single row for the Desktop version.</li>
+	<li><strong>Number of Items on Tab:</strong> Specify the number of Case Studies items you wish to show in a single row for the Tab version.</li>
+	<li><strong>Number of Items on Mobile:</strong> Specify the number of Case Studies items you wish to show in a single row for the Mobile version.</li>
+	<li><strong>Enable Zoom?:</strong> Choose, if you want to Zoom your Case Studies posts or not.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/case-studies-slider-looping.png" /></p>
+
+<p>Attributes for <strong>Looping</strong>:<br />
+Here, you can select &lsquo;Order By&rsquo; and &lsquo;Sort Order&rsquo; of the Case Studies items.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Clients">
+<h3 class="content-element-item-title">Clients</h3>
+
+<p>By using &lsquo;Clients&rsquo; element, you can add a clients section with clients items.</p>
+
+<p><img alt="" src="images/clients.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Clients Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Carousel:</strong> Choose, whether or not, you want to activate carousel. If you choose &lsquo;No&rsquo;, then the options, viz; <strong>&lsquo;Allow Navigation?&rsquo;, &lsquo;Navigation Style&rsquo;, &lsquo;Allow Dots for Navigation?&rsquo;, &lsquo;Navigation Dot Style&rsquo;, &lsquo;Allow Loop&rsquo;, &lsquo;Allow Autoplay?&rsquo; and &lsquo;Autoplay Timeout (in milliseconds)&rsquo;</strong> will be deactivated and if you choose &ldquo;Yes&rdquo;, then these options would stay and the Carousel would operate/function properly.
+	<div class="subtext_inner">
+	<p>i) <strong>Allow Navigation?:</strong> Choose, if you want to show or hide navigation. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Navigation Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the navigation would operate/function properly.</p>
+
+	<p>ii) <strong>Navigation Style:</strong> Choose from navigation styles for showing different styles for arrow.</p>
+	
+	<p>iii) <strong>Allow Dots for Navigation? :</strong> Choose, if you want to show dots for navigation. If you choose &lsquo;No&rsquo;, then the &lsquo;<strong>Navigation Dot Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the dots for navigation would operate/function properly.</p>
+
+	<p>iv) <strong>Navigation Dot Style:</strong> Choose style for showing &lsquo;Navigation Dot Style&rsquo;.</p>
+
+	<p>v) <strong>Allow Loop:</strong> Choose, if you want to enable the loop or not. If you have 5 items, and if you choose &lsquo;No&rsquo;, the loop will stop after showing those 5 specific items and if you select &ldquo;Yes&rdquo;, the loop will continue to run.</p>
+
+	<p>vi) <strong>Allow Autoplay?:</strong> Choose, if you want to autoplay your carousel or not. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Autoplay Timeout (in seconds)</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the Autoplay would operate/function properly.</p>
+
+	<p>vii) <strong>Autoplay Timeout (in milliseconds):</strong> Specify the time in milliseconds for an autoplay timeout, i.e: the duration after which the scroll will start.</p>
+	</div>
+	</li>
+	<li><strong>Order:</strong> Choose order for showing clients items, i.e: Ascending or Descending.</li>
+	<li><strong>Order By:</strong> Choose the order of clients items.</li>
+	<li><strong>Count:</strong> Specify the number of clients items you wish to show.</li>
+	<li><strong>Number of Posts on Desktop:</strong> Specify the number of posts you wish to show in desktop version.</li>
+	<li><strong>Number of Posts on Tab:</strong> Specify the number of posts you wish to show in tab version.</li>
+	<li><strong>Number of Posts on Mobile:</strong> Specify the number of posts you wish to show in mobile version.</li>
+	<li><strong>Keep Link:</strong> Specify if you want to keep link for clients or not.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ContactBox">
+<h3 class="content-element-item-title">Contact Box</h3>
+
+<p>By using &lsquo;Contact Box &rsquo; element, you can add a contact box with all the contact details. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+
+<p><img alt="" src="images/contact-box-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Contact Box Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Contact Box Icon Color:</strong> Set your Contact Box Icon Color (If not selected, it will take theme default color).</li>
+	<li><strong>Enter Address:</strong> Put address to be displayed on contact box.</li>
+	<li><strong>Enter Email:</strong> Put email address to be displayed on contact box.</li>
+	<li><strong>Enter Phone:</strong> Put phone number to be displayed on contact box.</li>
+	<li><strong>Enter Fax:</strong> Put fax to be displayed on contact box.</li>
+	<li><strong>Enter WhatsApp:</strong> Put whatsapp to be displayed on contact box.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the &lsquo;Contact Box&rsquo;. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/contact-box-design.png" /></p>
+
+<p>Attributes for <strong>Design Options</strong>:<br />
+Here you can manage the CSS style of Contact Box.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ContactForm">
+<h3 class="content-element-item-title">Contact Form 7</h3>
+
+<p>By using &lsquo;Contact Form 7&rsquo; element, you can add a contact form.</p>
+
+<p>Follow the steps to add a contact form---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Click on &lsquo;Contact Form 7&rsquo;. Select any Style out of different styles. If you require, you can add 2 specific fields, viz; &lsquo;Extra class name for the container&rsquo;, &lsquo;Element ID&rsquo;.</li>
+	<img alt="" src="images/cf7-general.png" />
+	<li>You can add your own CSS style for &lsquo;submit&rsquo; button in the Tab - &lsquo;Submit Button Design&rsquo;.</li>
+	<img alt="" src="images/cf7-submit-button.png" />
+	<li>You can add your own CSS style for &lsquo;<strong>Form Row</strong>&rsquo; in the Tab - &lsquo;Form Row Settings&rsquo;.</li>
+	<img alt="" src="images/cf7-submit-button.png" />
+	<li>You can add your own CSS style for &lsquo;<strong>contact form 7 input field</strong>&rsquo; in the Tab - &lsquo;Input Box Setting&rsquo;.</li>
+	<img alt="" src="images/cf7-input-box.png" />
+	<li>After providing all the details, click on &lsquo;Save Changes&rsquo; to save. Now, to add a contact form, click on &ldquo;plus(+)&rdquo; sign.</li>
+	<img alt="" src="images/cf-7-form-add.png" />
+	<li>To choose a contact form, click on &lsquo;Contact Form 7&rsquo;.</li>
+	<img alt="" src="images/cf-7-add-specific-form.png" />
+	<li>Select contact form, from &lsquo;Select contact form&rsquo; field and if you want a title, then provide it on &lsquo;Search title&rsquo; field.</li>
+	<img alt="" src="images/cf-7-choose-form.png" />
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="Countdown">
+<h3 class="content-element-item-title">Countdown</h3>
+
+<p>By using &lsquo;Countdown&rsquo; element, you can add a countdown timer.</p>
+<img alt="" src="images/countdown.png" />
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Countdown Timer Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Target Time For Countdown:</strong> Provide the date and time, right here.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="CounterUp">
+<h3 class="content-element-item-title">CounterUp</h3>
+
+<p>By using &lsquo;CounterUp&rsquo; element, you can add a counter. Here, you will get 2 tabs: viz; i) General ii) Typography</p>
+<img alt="" src="images/counterup-general.png" />
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Counterup Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Counterup Value:</strong> Enter the value for counting, in numeric style; right here.</li>
+	<li><strong>Counterup Time:</strong> Enter the time in milliseconds as to how long the counting will run, right here.</li>
+	<li><strong>Counterup Delay:</strong> Mention, after how long, counting will start in milliseconds.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><strong>Typography:</strong></p>
+<img alt="" src="images/counterup-typography.png" />
+<p>From &lsquo;Typography&rsquo;, you can change all the CSS style of the counter.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="CurrencyConverter">
+<h3 class="content-element-item-title">Currency Converter</h3>
+
+<p>By using &lsquo;Currency Converter&rsquo; element, you can add a Currency Converter section. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+
+<p><img alt="" src="images/currency-converter-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Choose Style:</strong> Select Style.</li>
+	<li><strong>API Access Key:</strong> Put API Access Key. Get API Access Key for <a href="https://fixer.io/" target="_blank">https://fixer.io/</a>. Without API Access Key, this element will not work.</li>
+    <li><strong>Color Scheme:</strong> Set your Color Scheme. (If not selected, it will take theme default color).</li>
+    <li><strong>Animation Style:</strong> A myriad of animation styles are available for the Currency Converter. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/currency-converter-design.png" /></p>
+
+<p>Attributes for <strong>Design Options</strong>:<br />
+Here you can manage the CSS style of Contact Box.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="CustomButton">
+<h3 class="content-element-item-title">Custom Button</h3>
+
+<p>If you want a totally different button, then you can do the same with &lsquo;Custom Button&rsquo; element. Here, you will get 4 tabs: viz; i) General ii) Typography iii) Button Design and iv) Button Hover</p>
+<img alt="" src="images/custom-button-general.png" />
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Title:</strong> Provide the button title, right here.</li>
+	<li><strong>URL (Link):</strong> Provide button url, right here.</li>
+	<li><strong>Alignment:</strong> Choose button alignment, right here.</li>
+	<li><strong>Add icon?:</strong> By marking &lsquo;Yes&rsquo; in the check box, you can add an icon with button.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the button. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+<img alt="" src="images/custom-button-typography.png" />
+<p><strong>Typography:</strong> From &lsquo;Typography&rsquo;, you can change all the CSS style for the text in the button.</p>
+<img alt="" src="images/custom-button-design.png" />
+<p><strong>Button Design:</strong> From &lsquo;Button Design&rsquo;, you can change the CSS style of the whole button.</p>
+<img alt="" src="images/custom-button-hover.png" />
+<p><strong>Button Hover:</strong> From &lsquo;Button Hover&rsquo;, you can change the style and colors of button hover.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="CustomMenu">
+<h3 class="content-element-item-title">Custom Menu</h3>
+
+<p>By using &lsquo;Custom Menu&rsquo; element, you can add a menu section.</p>
+
+<p><img alt="" src="images/custom-menu.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Menu Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Menu:</strong> Choose menu to display.</li>
+	<li><strong>Color:</strong> Set Color. (If not selected, it will take theme default color)</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="Dropcap">
+<h3 class="content-element-item-title">Dropcap</h3>
+
+<p>By using &lsquo;Dropcap&rsquo; element, you can add text with dropcap.</p>
+<img alt="" src="images/dropcap.png" />
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Dropcap Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Dropcap Letter:</strong> Provide Dropcap Letter.</li>
+	<li><strong>Content:</strong> You can add your content here.</li>
+	<li><strong>Color Scheme:</strong> Choose color from this field (If not selected, it will take theme default color).</li>
+	<li><strong>Content Color:</strong> Choose content color.</li>
+	<li><strong>Extra class name for the container:</strong>You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="FancyTextBox">
+<h3 class="content-element-item-title">Fancy Text Box</h3>
+
+<p>By using &lsquo;Fancy Text Box&rsquo; element, you can add different types of text box. Here, you will get 2 tabs: viz; i) General ii) Fancy Text Box Design</p>
+<img alt="" src="images/fancy-text-box-general.png" />
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Fancy Text Box Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Color:</strong> Set your Fancy Textbox Color. (If not selected, it will take theme default color).</li>
+	<li><strong>Title:</strong> Provide title, right here.</li>
+	<li><strong>Subtitle:</strong> Provide subtitle, right here.</li>
+	<li><strong>Fancy Text Box Content:</strong> Provide content, right here.</li>
+	<li><strong>Select Icon Type:</strong> Choose if you want image or icon. If you choose &lsquo;Image&rsquo;, then you can add icon image on &lsquo;<strong>Add Icon (Eg. 80x80)</strong>&rsquo; field. If you choose &lsquo;Icon&rsquo;, then you can Select icon from library on &lsquo;<strong>Icon (Icofont)</strong>&rsquo; field.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the text box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+	<li><strong>Extra class name for the container:</strong>You can put an extra CSS class name, if required.</li>
+</ol>
+<img alt="" src="images/fancy-text-box-design.png" />
+<p><strong>Fancy Text Box Design:</strong><br />
+Here you can change the CSS style of the whole text box.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="FlipBox">
+<h3 class="content-element-item-title">Flip Box</h3>
+
+<p>By using &lsquo;Flip Box&rsquo; element, you can add different types of flip box. Here, you will get 3 tabs: viz; i) General ii) First Card iii) Second Card</p>
+<img alt="" src="images/flip-box-general.png" />
+<p>Attributes for General:</p>
+<ol>
+    <li><strong>Flip Box Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+    <li><strong>Flip Box Axis:</strong> Select Axis of the Flip Box.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the text box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong>You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>    
+</ol>
+<div class="sub_text"><img alt="" src="images/flip-box-first-card.png" />
+<p><strong>Attributes for First Card:</strong></p>
+<ol>
+    <li><strong>Image:</strong> Upload image for First Cart, from this field.</li>
+	<li><strong>Title:</strong> Provide title, right here.</li>
+	<li><strong>Content:</strong> Provide Content, right here.</li>
+	<li><strong>Customizer:</strong> Here you can change the CSS style of the whole flip box for First Card.</li>
+</ol>
+<img alt="" src="images/flip-box-second-card.png" />
+<p><strong>Attributes for Second Card:</strong></p>
+
+<ol>
+	<li><strong>Title:</strong> Provide title, right here.</li>
+	<li><strong>Content:</strong> Provide Content, right here.</li>
+	<li><strong>Button:</strong> Provide Button details, right here.</li>
+	<li><strong>Customizer:</strong> Here you can change the CSS style of the whole flip box for Second Card.</li>
+</ol>
+
+<p></p>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="HighlightBox">
+<h3 class="content-element-item-title">Highlight Box</h3>
+
+<p>By using &lsquo;Highlight Box&rsquo; element, you can add different types of Highlight Box. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+<img alt="" src="images/highlight-box-general.png" />
+<p>Attributes for General:</p>
+<ol>
+	<li><strong>Highlight Box Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Image:</strong> Upload image for box, from this field.</li>
+	<li><strong>Highlight Box Title:</strong> Provide title, right here.</li>
+	<li><strong>Highlight Box Content:</strong> Provide Content, right here.</li>
+	<li><strong>Highlight Box Link:</strong> Provide button url, right here.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the text box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong>You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+<div class="sub_text"><img alt="" src="images/highlight-box-design.png" />
+<p><strong>Design Options:</strong><br />
+Here you can change the CSS style of the whole highlight box.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<div class="content-element-item" id="IconBox">
+<h3 class="content-element-item-title">Icon Box</h3>
+
+<p>By using &lsquo;Icon Box&rsquo; element, you can add different types of Icon Box. Here, you will get 2 tabs: viz; i) General ii) Design</p>
+<img alt="" src="images/icon-box-general.png" />
+<p>Attributes for General:</p>
+<ol>
+	<li><strong>Select Icon Library:</strong> From custom icon library.</li>
+	<li><strong>Icon (Icofont):</strong> Select icon from library.</li>
+	<li><strong>Icon Align:</strong> Select icon alignment.</li>
+	<li><strong>Icon size:</strong> Enter icon size. (eg. 10px, 1em, 1rem).</li>
+	<li><strong>Icon Color:</strong> Provide Icon color.</li>
+	<li><strong>Icon Border Radius:</strong> Select icon border radius.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the text box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong>You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+<div class="sub_text"><img alt="" src="images/icon-box-design.png" />
+<p><strong>Design:</strong><br />
+Here you can change the CSS style of the whole Icon Box.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ihover">
+<h3 class="content-element-item-title">ihover</h3>
+
+<p>By using &lsquo;ihover&rsquo; element, you can add different types of ihover Box with content. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+<img alt="" src="images/ihover-general.png" />
+<p>Attributes for General:</p>
+<ol>
+	<li><strong>ihover Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Image:</strong> Upload image for box, from this field.</li>
+	<li><strong>Title:</strong> Provide title, right here.</li>
+	<li><strong>Content:</strong> Provide Content, right here.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the text box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong>You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+<div class="sub_text"><img alt="" src="images/ihover-design.png" />
+<p><strong>Design Options:</strong><br />
+Here you can change the CSS style of the whole highlight box.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="ImageGallery">
+<h3 class="content-element-item-title">Image Gallery</h3>
+
+<p><img alt="" src="images/image-gallery.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Image Gallery Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Upload Images:</strong> Upload image for gallery, from this field.</li>
+	<li><strong>Number of Items in small gallery:</strong> Specify the number of images you wish to show in small gallery as &lsquo;thumbnail&rsquo;.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="ImageSlider">
+<h3 class="content-element-item-title">Image Slider</h3>
+
+<p><img alt="" src="images/image-slider.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Image Slider Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Upload Images:</strong> Upload image for slider, from this field.</li>
+	<li><strong>Number of Images on Desktop:</strong> Specify the number of images you wish to show in a single row for the Desktop version.</li>
+	<li><strong>Number of Images on Tab:</strong> Specify the number of images you wish to show in a single row for the Tab version.</li>
+	<li><strong>Number of Images on Mobile:</strong> Specify the number of images you wish to show in a single row for the Mobile version.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="List">
+<h3 class="content-element-item-title">List</h3>
+
+<p>By using &lsquo;List&rsquo; element, you can add a listbox with different styles. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+
+<p><img alt="" src="images/list-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>List Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Content:</strong> Provide content with ul/li structure as screenshot, right here.</li>
+	<li><strong>List Icon Color : </strong>Provide the icon color of list, right here.</li>
+	<li><strong>Animation Style :</strong> A myriad of animation styles are available for the list box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/list-design.png" /></p>
+
+<p><strong>Design Options:</strong><br />
+Here you can change the CSS style of the whole list box.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="LoanCalculator">
+<h3 class="content-element-item-title">Loan Calculator</h3>
+
+<p>By using &lsquo;Loan Calculator&rsquo; element, you can add a Loan Caculator. Here, you will get 2 tabs: viz; i) General ii) Design Options</p>
+
+<p><img alt="" src="images/loan-calculator-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Choose Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Animation Style :</strong> A myriad of animation styles are available for the list box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/loan-calculator-design.png" /></p>
+
+<p><strong>Design Options:</strong><br />
+Here you can change the CSS style of the whole Loan Calculator box.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="MasonryGallery">
+<h3 class="content-element-item-title">Masonry Gallery</h3>
+
+<p>By using &lsquo;Masonry Gallery&rsquo; element, you can add a Masonry Gallery. Here, you will get 2 tabs: viz; i) General ii) Hover Layer</p>
+
+<p><img alt="" src="images/masonry-gallery-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Masonry Gallery Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Upload Images:</strong> Upload images for gallery, from this field.</li>
+	<li><strong>Animation Style :</strong> A myriad of animation styles are available for the list box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/masonry-gallery-hover-layer.png" /></p>
+
+<p><strong>Hover Layer:</strong><br />
+Here you can change the CSS style of the Hover Layer for the gallery.</p>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="PopupVideo">
+<h3 class="content-element-item-title">Popup Video</h3>
+
+<p>By using &lsquo;Popup Video&rsquo; element, you can add a video from Youtube Or Vimeo.</p>
+
+<p><img alt="" src="images/popup-video.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Popup Video Style:</strong> As there is only one style by-default, you don&rsquo;t have to select any.</li>
+	<li><strong>Popup Video Alignment:</strong> Choose Alignment of the video.</li>
+	<li><strong>Upload image :</strong> Upload thumbnail image for the video.</li>
+	<li><strong>Enter Youtube/Vimeo Video Link :</strong> Enter video link.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong>You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Portfolio">
+<h3 class="content-element-item-title">Portfolio</h3>
+
+<p>By using &lsquo;Portfolio&rsquo;, you can add a portfolio section with portfolio posts. Here, you will get 2 tabs: viz; i) General ii) Looping</p>
+
+<p><img alt="" src="images/portfolio-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Portfolio Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Portfolio Category:</strong> Put specific Portfolio Category slug name to display all posts under that specific Portfolio Category. If you want to display all posts, then put 'all'.</li>
+	<li><strong>Portfolio Display Filter:</strong> If you want to filter your portfolio posts with portfolio categories, then check &lsquo;Yes&rsquo;. After marking as &lsquo;Yes&rsquo;, these fields will be activated:
+	<div class="subtext_inner">
+	<p>i) <strong>Portfolio Filter Style:</strong> Choose from 3 different styles.</p>
+
+	<p>ii) <strong>Portfolio Filter Align:</strong> Choose alignment of the filter.</p>
+	</div>
+	</li>
+	<li><strong>Portfolio Box Align:</strong> Choose alignment of the portfolio box.</li>
+	<li><strong>How many items to show?:</strong> Specify the number of portfolio posts you wish to show.</li>
+	<li><strong>Portfolio Box Number:</strong> Specify the number of portfolios you wish to show in a grid.</li>
+	<li><strong>Enable Zoom?:</strong> If you choose &lsquo;Yes&rsquo; here, then portfolios will not be linked to portfolio details, but instead portfolios will only &ldquo;zoom&rdquo;. If you choose &lsquo;No&rsquo;, then portfolios will be linked to their &ldquo;details page&rdquo;.
+	<li><strong>Enable Link?:</strong> If you want to enable the button on portfolio with link, then check &lsquo;Yes&rsquo;.</li>
+	<li><strong>Portfolio Enable Title?:</strong> Choose if you want to show or hide title.</li>
+	<li><strong>Portfolio Enable excerpt?:</strong> Choose if you want to show or hide excerpt.</li>
+	<li><strong>Spacing between Portfolio Items:</strong> Provide the spacing between 2 portfolio items.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+	<li><strong>Add Animation?:</strong> From here, you can add animation.</li>
+</ol>
+
+<p><img alt="" src="images/portfolio-looping.png" /></p>
+
+<p>Attributes for <strong>Looping</strong>:<br />
+Here, you can select &lsquo;Order By&rsquo; and &lsquo;Sort Order&rsquo; of the portfolio items. You can exclude specific portfolio post(s) by providing ID of that post(s) on 'Offset Posts' field. For providing multiple ID you need to use 'Comma (,)'.</p>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="PortfolioSlider">
+<h3 class="content-element-item-title">Portfolio Slider</h3>
+
+<p>By using &lsquo;Portfolio Slider&rsquo;, you can add a Slider with portfolio posts. Here, you will get 2 tabs: viz; i) General ii) Looping</p>
+
+<p><img alt="" src="images/portfolio-slider-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Portfolio Slider Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Portfolio Category:</strong> Put specific Portfolio Category slug name to display all posts under that specific Portfolio Category. If you want to display all posts, then put 'all'.</li>
+	<li><strong>Allow Loop:</strong> Choose, if you want to enable the loop or not. If you have 5 portfolio posts, and if you choose &lsquo;No&rsquo;, the loop will stop after showing those 5 specific portfolio posts and if you select &ldquo;Yes&rdquo;, the loop will continue to run.</li>
+	<li><strong>Allow Autoplay?:</strong> Choose, if you want to autoplay your carousel or not. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Autoplay Timeout (in seconds)</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the Autoplay would operate/function properly.</li>
+	<li><strong>Autoplay Timeout (in milliseconds):</strong> Specify the time in milliseconds for an autoplay timeout, i.e: the duration after which the scroll will start.</li>
+	<li><strong>Number of Items on Desktop:</strong> Specify the number of portfolio items you wish to show in a single row for the Desktop version.</li>
+	<li><strong>Number of Items on Tab:</strong> Specify the number of portfolio items you wish to show in a single row for the Tab version.</li>
+	<li><strong>Number of Items on Mobile:</strong> Specify the number of portfolio items you wish to show in a single row for the Mobile version.</li>
+	<li><strong>Enable Zoom?:</strong> Choose, if you want to Zoom your portfolio posts or not.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/portfolio-slider-looping.png" /></p>
+
+<p>Attributes for <strong>Looping</strong>:<br />
+Here, you can select &lsquo;Order By&rsquo; and &lsquo;Sort Order&rsquo; of the portfolio items.</p>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="PricingItem">
+<h3 class="content-element-item-title">Pricing Item</h3>
+
+<p>By using &lsquo;Pricing Item&rsquo; element, you can add a pricing box.</p>
+
+<p><img alt="" src="images/pricing-item.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Pricing Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Title:</strong> Provide pricing title, right here.</li>
+	<li><strong>Subtitle:</strong> Provide pricing subtitle, right here.</li>
+	<li><strong>Currency Symbol:</strong> Provide Currency Symbol of pricing, right here.</li>
+	<li><strong>Price (Without Currency Symbol):</strong> Provide price, right here.</li>
+	<li><strong>Period:</strong> Set period, right here.</li>
+	<li><strong>Tagline:</strong> Set Tagline, right here.</li>
+	<li><strong>Content:</strong> Provide pricing content, right here.</li>
+	<li><strong>Button | Title:</strong> Set button text, right here.</li>
+	<li><strong>Button | Link :</strong> Set button link, right here.</li>
+	<li><strong>Highlight:</strong> If you want this item to be highlighted, then choose &lsquo;Yes&rsquo;.</li>
+	<li><strong>Color:</strong> Set your Pricing Table Color. (If not selected, it will take theme default color)</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the pricing item. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="ProgressBar">
+<h3 class="content-element-item-title">Progress Bar</h3>
+
+<p>By using &lsquo;Progress Bar&rsquo; element, you can add Progress bar.</p>
+
+<p><img alt="" src="images/progress-bar.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Progressbar Title:</strong> Provide title, right here.</li>
+	<li><strong>Color:</strong> Set your Progressbar Color (If not selected, it will take theme default color).</li>
+	<li><strong>Progressbar Height:</strong> Provide height, right here.</li>
+	<li><strong>Progress Percentage:</strong> Provide percentage, right here.</li>
+	<li><strong>Progressbar Animation:</strong> Choose &lsquo;true&rsquo; to bring animation effect for the stripe.</li>
+	<li><strong>Progressbar Striped:</strong> Choose &lsquo;true&rsquo; to bring stripe on progressbar.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Separator">
+<h3 class="content-element-item-title">Separator</h3>
+
+<p>By using &lsquo;Separator&rsquo; element, you can add a separator.</p>
+
+<p><img alt="" src="images/separator.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Choose Unit for width:</strong> Specify the unit for separator width. If you have chosen &lsquo;Percentage&rsquo;, then you will get &lsquo;<strong>Separator Width (Percentage)</strong>&rsquo; field, and you need to choose separator width, right there. If you have chosen &lsquo;Pixel&rsquo;, then you will get &lsquo;<strong>Separator Width (Pixel) eg. 250</strong>&rsquo; field, and you need to choose separator width, right there.</li>
+	<li><strong>Separator Color:</strong> Provide color for separator, right here.</li>
+	<li><strong>Separator Background Color:</strong> Provide Background Color of separator, right here.</li>
+	<li><strong>Separator Direction:</strong> Choose direction for separator icon.</li>
+	<li><strong>Separator Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="Tabs">
+<h3 class="content-element-item-title">Tabs</h3>
+
+<p>By using &lsquo;Tabs&rsquo; element, you can add a tab with content.</p>
+
+<p>Follow the steps to add a tab---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Click on &lsquo;Tabs&rsquo;.Select any Style out of different styles from 'Select Tabs Style' field. Choose color from 'Color' field (If not selected, it will take theme default color). If you require, you can use 2 specific fields, viz; &lsquo;<strong>Extra class name for the container</strong>&rsquo; , &lsquo;<strong>Element ID</strong>&rsquo;.</li>
+	<p><img alt="" src="images/tabs-general.png" /></p>
+	<li>After providing all the details, click on &lsquo;Save Changes&rsquo; to save. Now, to add tab item, click on &ldquo;plus(+)&rdquo; sign.</li>
+	<p><img alt="" src="images/tab-plus.png" /></p>
+	<li>To add a tab item, click on &lsquo;Tab Item&rsquo;.</li>
+	<p><img alt="" src="images/tab-item.png" /></p>
+	<li>If you want icon with tab title, then click &lsquo;Yes&rsquo; on &lsquo;Display Icons?&rsquo; field and provide your icon. Provide title on &lsquo;Tab Title&rsquo; field and provide content on &lsquo;Tab Content&rsquo; field.
+	<p><img alt="" src="images/add-tab-item.png" /></p>
+	</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="Team">
+<h3 class="content-element-item-title">Team</h3>
+
+<p>By using &lsquo;Team&rsquo; element, you can add a team section with team items.</p>
+
+<p><img alt="" src="images/team.png" /></p>
+
+<p>Follow the steps to add a tab---</p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Team Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Carousel:</strong> Choose, whether or not, you want to activate carousel. If you choose &lsquo;No&rsquo;, then the options, viz; <strong>&lsquo;Allow Navigation?&rsquo;, &lsquo;Navigation Style&rsquo;, &lsquo;Allow Dots for Navigation?&rsquo;, &lsquo;Navigation Dot Style&rsquo;, &lsquo;Allow Loop&rsquo;, &lsquo;Allow Autoplay?&rsquo; and &lsquo;Autoplay Timeout (in seconds)&rsquo;</strong> will be deactivated and if you choose &ldquo;Yes&rdquo;, then these options would stay and the Carousel would operate/function properly.
+	<div class="subtext_inner">
+	<p>i) <strong>Allow Navigation?:</strong> Choose, if you want to show or hide navigation. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Navigation Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the navigation would operate/function properly.</p>
+
+	<p>ii) <strong>Navigation Style:</strong> Choose from navigation styles for showing different styles for arrow.</p>
+
+	<p>iii) <strong>Allow Dots for Navigation? :</strong> Choose, if you want to show dots for navigation. If you choose &lsquo;No&rsquo;, then the &lsquo;<strong>Navigation Dot Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the dots for navigation would operate/function properly.</p>
+
+	<p>iv) <strong>Navigation Dot Style:</strong> Choose style for showing &lsquo;Navigation Dot Style&rsquo;.</p>
+
+	<p>v) <strong>Allow Loop:</strong> Choose, if you want to enable the loop or not. If you have 5 items, and if you choose &lsquo;No&rsquo;, the loop will stop after showing those 5 specific items and if you select &ldquo;Yes&rdquo;, the loop will continue to run.</p>
+
+	<p>vi) <strong>Allow Autoplay?:</strong> Choose, if you want to autoplay your carousel or not. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Autoplay Timeout (in seconds)</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the Autoplay would operate/function properly.</p>
+
+	<p>vii) <strong>Autoplay Timeout (in seconds):</strong> Specify the time in seconds for an autoplay timeout, i.e: the duration after which the scroll will start.</p>
+	</div>
+	</li>
+	<li><strong>Order:</strong> Choose order for showing team items, i.e: Ascending or Descending.</li>
+	<li><strong>Order By:</strong> Choose the order of team items.</li>
+	<li><strong>Count:</strong> Specify the number of team items you wish to show.</li>
+	<li><strong>Number of Posts on Desktop:</strong> Specify the number of team items you wish to show in a single row for the Desktop version.</li>
+	<li><strong>Number of Posts on Tab:</strong> Specify the number of team items you wish to show in a single row for the Tab version.</li>
+	<li><strong>Number of Posts on Mobile:</strong> Specify the number of team items you wish to show in a single row for the Mobile version.</li>
+	<li><strong>Enable Link?:</strong> Choose, if you want to enable the link of team items or not.</li>
+	<li><strong>Add Animation?:</strong> A myriad of animation styles are available for the team items. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Testimonial">
+<h3 class="content-element-item-title">Testimonial</h3>
+
+<p>By using &lsquo;Testimonial&rsquo; element, you can add a testimonial section with testimonial items.</p>
+
+<p><img alt="" src="images/testimonial-general.png" /></p>
+<p>Follow the steps to add a tab---</p>
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Testimonial Style:</strong> Select any Style out of different styles.</li>
+	<li><strong>Color:</strong> Choose color from 'Color Scheme' field (If not selected, it will take theme default color).</li> 
+	<li><strong>Carousel:</strong> Choose, whether or not, you want to activate carousel. If you choose &lsquo;No&rsquo;, then the options, viz; <strong>&lsquo;Allow Navigation?&rsquo;, &lsquo;Navigation Style&rsquo;, &lsquo;Allow Dots for Navigation?&rsquo;, &lsquo;Navigation Dot Style&rsquo;, &lsquo;Allow Loop&rsquo;, &lsquo;Allow Autoplay?&rsquo; and &lsquo;Autoplay Timeout (in milliseconds)&rsquo;</strong> will be deactivated and if you choose &ldquo;Yes&rdquo;, then these options would stay and the Carousel would operate/function properly.
+	<div class="subtext_inner">
+	<p>i) <strong>Allow Navigation?:</strong> Choose, if you want to show or hide navigation. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Navigation Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the navigation would operate/function properly.</p>
+
+	<p>ii) <strong>Navigation Style:</strong> Choose from navigation styles for showing different style for arrow.</p>
+
+	<p>iii)<strong> Allow Dots for Navigation? :</strong> Choose, if you want to show dots for navigation. If you choose &lsquo;No&rsquo;, then the &lsquo;<strong>Navigation Dot Style</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the dots for navigation would operate/function properly.</p>
+
+	<p>iv) <strong>Navigation Dot Style:</strong> Choose style for showing &lsquo;Navigation Dot Style&rsquo;.</p>
+
+	<p>v) <strong>Allow Loop:</strong> Choose, if you want to enable the loop or not. If you have 5 items, and if you choose &lsquo;No&rsquo;, the loop will stop after showing those 5 specific items and if you select &ldquo;Yes&rdquo;, the loop will continue to run.</p>
+
+	<p>vi) <strong>Allow Autoplay?:</strong> Choose, if you want to autoplay your carousel or not. If you choose &lsquo;No&rsquo;, then &lsquo;<strong>Autoplay Timeout (in seconds)</strong>&rsquo; option will be deactivated and if you choose &ldquo;Yes&rdquo;, then this option would stay and the Autoplay would operate/function properly.</p>
+
+	<p>vii) <strong>Autoplay Timeout (in milliseconds):</strong> Specify the time in milliseconds for an autoplay timeout, i.e: the duration after which the scroll will start.</p>
+	</div>
+	</li>
+	<li><strong>Order:</strong> Choose order for showing testimonial items, i.e: Ascending or Descending.</li>
+	<li><strong>Order By:</strong> Choose the order of testimonial items.</li>
+	<li><strong>Count:</strong> Specify the number of testimonial items you wish to show.</li>
+	<li><strong>Number of Posts on Desktop:</strong> Specify the number of testimonial items you wish to show in a single row for the Desktop version.</li>
+	<li><strong>Number of Posts on Tab:</strong> Specify the number of testimonial items you wish to show in a single row for the Tab version.</li>
+	<li><strong>Number of Posts on Mobile:</strong> Specify the number of testimonial items you wish to show in a single row for the Mobile version.</li>
+	<li><strong>Add Animation?:</strong> A myriad of animation styles are available for the testimonial items. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="TypewriterText">
+<h3 class="content-element-item-title">Typewriter Text</h3>
+
+<p>By using &lsquo;Typewriter Text&rsquo; element, you can add Typewriter Text. Here, you will get 2 tabs: viz; i) General ii) Attribute iii) Design</p>
+
+<p><img alt="" src="images/typewriter-general.png" /></p>
+
+<p>Attributes for General:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Value Strings:</strong> Add text, right here by clicking 'Toggle row' as per below screenshot.</li>
+	<img alt="" src="images/typewriter-text.png" />
+	<li><strong>Alignment:</strong> Select text alignment.</li>
+	<li><strong>Tag:</strong> Select HTML tag for Typewriter Text.</li>
+	<li><strong>Font Size:</strong> Enter font size for the text.</li>
+	<li><strong>Line Height:</strong> Enter line height.</li>
+	<li><strong>Font Color:</strong> Enter Font Color of the text.</li>
+	<li><strong>Animation Style :</strong> A myriad of animation styles are available for the list box. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+
+<p><img alt="" src="images/typewriter-attribute.png" /></p>
+
+<p><strong>Attributes for 'Attribute' tab:</strong><br />
+<ol>
+	<li><strong>Type Speed:</strong> Specify type speed of display texts.</li>
+	<li><strong>Start Delay:</strong> Enter Start Delay in miliseconds.</li>
+	<li><strong>Back Speed:</strong> Enter Back Speed in miliseconds.</li>
+	<li><strong>Back Delay:</strong> Enter font size for the text in miliseconds.</li>
+	<li><strong>Shuffle:</strong> Choose, if you want to enable shuffle or not.</li>
+	<li><strong>Loop:</strong> Choose, if you want to enable the loop or not.</li>
+</ol>
+
+<p><img alt="" src="images/typewriter-design.png" /></p>
+<p><strong>Design:</strong><br />
+Here you can change the CSS style of the Typewriter Text Box.</p>
+
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ThemeButton">
+<h3 class="content-element-item-title">Theme Button</h3>
+
+<p>By using &lsquo;Theme Button&rsquo; element, you can create common button for the theme.</p>
+
+<p><img alt="" src="images/theme-button.png" /></p>
+
+<p>Attributes:</p>
+
+<div class="sub_text">
+<ol>
+	<li><strong>Title:</strong> Provide the button title, right here.</li>
+	<li><strong>URL (Link):</strong> Provide button url, right here.</li>
+	<li><strong>Alignment:</strong> Choose button alignment, right here.</li>
+	<li><strong>Add icon?:</strong> By marking &lsquo;Yes&rsquo;, you can add icon with button.</li>
+	<li><strong>Animation Style:</strong> A myriad of animation styles are available for the button. You can select any one of them or just leave without animation.</li>
+	<li><strong>Extra class name for the container:</strong> You can put an extra CSS class name, if required.</li>
+	<li><strong>Element ID:</strong> You can put an Element ID, if required.</li>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+<div class="content-element-item" id="TimeLine">
+<h3 class="content-element-item-title">TimeLine</h3>
+
+<p>From &lsquo;Timeline&rsquo; element, you can add content with timeline style.</p>
+
+<p>Follow the steps to add a Timeline element---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Click on &lsquo;Timeline&rsquo;. Select any Style out of different styles from &lsquo;<strong>Select Timeline Style</strong>&rsquo; field and set color from &lsquo;<strong>Color Scheme</strong>&rsquo; field (If color is not selected, it will take theme default color). If you require, you can add 2 specific fields, viz; &lsquo;<strong>Extra class name for the container</strong>&rsquo; , &lsquo;<strong>Element ID</strong>&rsquo;.</li>
+	<img alt="" src="images/timeline-general.png" />
+	<li>You can add your own CSS styles in the Tab - &lsquo;<strong>Design</strong>&rsquo;.</li>
+	<img alt="" src="images/timeline-design.png" />
+	<li>After providing all the details, click on &lsquo;Save Changes&rsquo; to save. Now, to add timeline items, click on &ldquo;plus(+)&rdquo; sign.</li>
+	<img alt="" src="images/timeline-item-add.png" />
+	<li>To add an item, click on &lsquo;Timeline Item&rsquo;.</li>
+	<img alt="" src="images/timeline-item.png" />
+	<li>Provide Timeline Image, Timeline Title, Timeline Date (Month), Timeline Date (Year) and Timeline Content (You can use HTML tags) for that particular item.</li>
+	<img alt="" src="images/timeline-content.png" />
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="SetupMenuSubmenu">
+<h3 class="content-element-item-title">Menu</h3>
+
+<p>To add your own menu(s), follow the following steps--</p>
+
+<div class="sub_text">
+<ol>
+	<li>Navigate Appearance &gt; Menus</li>
+	<li>Type Your menu name on &lsquo;Menu Name&rsquo; field and click, &lsquo;Create Menu&rsquo;.</li>
+	<li>Choose position for menu in &lsquo;Display Location&rsquo;.</li>
+	<li>Click on &lsquo;Save Menu&rsquo; to save everything.</li>
+</ol>
+
+<p>You can add Pages, Posts and Custom links from blocks on the left side. Now, if you want to add special items such as &lsquo;Portfolio&rsquo;, &lsquo;Portfolio Categories&rsquo;, &lsquo;Clients&rsquo;, etc. then click on &ldquo;Screen Options&rdquo; button in the top right hand corner to add those additional menus.</p>
+
+<p>To get more information about creating menu(s), go to - <a href="//en.support.wordpress.com/menus" target="_blank">//en.support.wordpress.com/menus</a></p>
+</div>
+
+<!-- <p><strong style="font-size:20px;">Max Mega Menu</strong></p> -->
+<p><strong style="font-size:20px;">RadiantThemes Mega Menu</strong></p>
+
+<p>First, you need to create a menu and make that &quot;Primary&quot;. It is only after that, you can make the menu which has been created as &lsquo;MEGA MENU&rsquo; (opt for it only if you need it).</p>
+
+<!-- <p><strong>Please go through the following points to know how to create Max Mega Menu:</strong></p> -->
+<p><strong>Please go through the following points to know how to create RadiantThemes Mega Menu:</strong></p>
+
+<div class="subtext_inner">
+<ol>
+	<li>Login to WordPress admin panel (URL should be www.yourdomain.com/wp-admin ).</li>
+	<li>Navigate to <strong>"Appearance > Menus".</strong></li>
+	<li>From drop-down, select the menu you want to make <strong>"Primary"</strong>, and then click on <strong>"Select"</strong> button.</li>
+	<p><img alt="" src="images/mega-menu-1.png" /></p>
+	<li>Now, click on menu items where you want to enable the mega menu.</li>
+	<li>Click on the checkbox <strong>“Use as Mega Menu”</strong></li>
+	<p><img alt="" src="images/mega-menu2.png" /></p>
+	<li>Now select <strong>“Column”</strong> or <strong>“Tab”</strong> under <strong>“Use Submenus as:”</strong> dropdown option.</li>
+	<p><img alt="" src="images/mega-menu3.png" /></p>
+	<li>Navigate to <strong>"Appearance > Widgets".</strong></li>
+	<li>Place any available widgets under <strong>“Widgets in Menu”</strong> widget position.</li>
+	<p><img alt="" src="images/mega-menu4.png" /></p>
+	<li>Navigate to <strong>"Appearance > Menus" again.</strong></li>
+	<li>Click on <strong>“Screen Options”</strong> at the top right and check <strong>“Megamenu Setting”</strong> and <strong>“Widgets”</strong> if they are already not checked.</li>
+    <p><img alt="" src="images/mega-menu5.png" /></p>
+	<li>Click on <strong>“Widgets”</strong> tab in the left side, you will see all the created widgets that you placed under <strong>“Widgets in Menu”</strong> widget position in Step 8 here.</li>
+	<p><img alt="" src="images/mega-menu6.png" /></p>
+	<li>Select the available widgets by checking them and then click on <strong>“Add to Menu”</strong> button.</li>
+	<li>Place the above widgets under the menu where you have selected <strong>“Use as Mega Menu”</strong></li>
+	<li>Then click on <strong>“Save Menu”</strong> button in the bottom right.</li>
+	<p><img alt="" src="images/mega-menu7.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="CreateMainMenu">
+<h3 class="content-element-item-title">E-Commerce</h3>
+
+<p><strong>You can enable e-commerce on your site with WooCommerce plugin. Unbound is fully compatible with the WooCommerce plugin.</strong></p>
+
+<p><strong>Install WooCommerce and setup default shop pages</strong></p>
+
+<p>If your site doesn&rsquo;t have WooCommerce installed already, then you need to install the WooCommerce plugin first. To do the same, navigate to &lsquo;Plugins&rsquo; &gt; &lsquo;Add new&rsquo; and then type &lsquo;WooCommerce&rsquo; into the search field. Now install the plugin by clicking on &ldquo;Install Now&rdquo; button. After that, click on &ldquo;Activate&rdquo; button to activate the plugin. After activating, you will get notification to install WooCommerce pages. So, install default WooCommerce pages from there. To get more information about WooCommerce, click on this link-- <a href="https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-user-guide/getting-started/" target="_blank">WooCommerce Documentation</a></p>
+
+<p><strong>How to add new product</strong></p>
+
+<p>Navigate to Products &gt; Add New. Now, put all the essential details to add a new product. You will get all the details on how to manage products from here---</p>
+<a href="https://docs.woocommerce.com/document/managing-products/" target="_blank">https://docs.woocommerce.com/document/managing-products/</a></div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="BlogPosts">
+<h3 class="content-element-item-title">Blog Posts</h3>
+
+<p>Please go through the points given below to understand how to create a new blog post--</p>
+
+<div class="sub_text">
+
+<ol>
+	<li>Login to WordPress admin panel.</li>
+	<li>Navigate to &quot;Posts &gt; Add New&quot;</li>
+	<li>Provide a suitable title for your blog post.</li>
+	<p><img alt="" src="images/post-title.png" /></p>
+	<li>On the below area, you have to write content for your blog post. You can also add content with WPBakery Page Builder.</li>
+	<p><img alt="" src="images/add-content.png" /></p>
+	<li>As short contents for blog post element are coming from &lsquo;Excerpt&rsquo;, so you need to provide content on &lsquo;Excerpt&rsquo; too. If you&rsquo;re not getting &lsquo;Excerpt&rsquo; option on your post, then click on &ldquo;Screen Options&rdquo; button in the top right hand corner and check &lsquo;Excerpt&rsquo; to get the option.</li>
+	<p><img alt="" src="images/excerpt.png" /></p>
+	<li>On the right hand side, you will find &quot;Featured Image&quot; section. Here, you can provide an image for your blog post.</li>
+	<p><img alt="" src="images/featured-image.png" /></p>
+	<li>From &quot;Categories&quot; box, you can put your blog post under a suitable category or create a new category for that.</li>
+	<p><img alt="" src="images/adding-categories-and-tags.png" /></p>
+	<li>Finally, click on &quot;Publish&quot; button to publish your blog post.</li>
+	<p><img alt="" src="images/publishing-options.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="TestimonialItems2">
+<h3 class="content-element-item-title">Testimonial Items</h3>
+
+<p>Please go through the points given below to understand how to create a new testimonial item---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Login to WordPress admin panel.</li>
+	<li>Navigate to &quot;Testimonials &gt; Add New Testimonial&quot;</li>
+	<li>Provide a suitable title for your testimonial item.</li>
+	<p><img alt="" src="images/post-title.png" /></p>
+	<li>On the below area, you have to write content for your testimonial item.</li>
+	<p><img alt="" src="images/add-content.png" /></p>
+	<li>As short contents for testimonial element are coming from &lsquo;Excerpt&rsquo;, so you need to provide content on &lsquo;Excerpt&rsquo; too. If you&rsquo;re not getting &lsquo;Excerpt&rsquo; option on your testimonial, then click on &ldquo;Screen Options&rdquo; button in the top right hand corner and check &lsquo;Excerpt&rsquo; to get the option.</li>
+	<p><img alt="" src="images/excerpt.png" /></p>
+	<li>On the right hand side, you will find &quot;Client Hover Image&quot; section. Here, you can provide an image for your testimonial item.</li>
+	<p><img alt="" src="images/tc-image.png" /></p>
+	<li>You can add testimonial information here.</li>
+	<p><img alt="" src="images/testimonial-info.png" /></p>
+	<li>Finally, click on &quot;Publish&quot; button to publish your testimonial item.</li>
+	<p><img alt="" src="images/publishing-options.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="TeamItems2">
+<h3 class="content-element-item-title">Team Items</h3>
+
+<p>Please go through the points given below to understand how to create a new team item---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Login to WordPress admin panel.</li>
+	<li>Navigate to &quot;Team &gt; Add New Team&quot;</li>
+	<li>Provide a suitable title for your team item.</li>
+	<p><img alt="" src="images/post-title.png" /></p>
+	<li>On the below area, you have to write content for your team item. Also, you can add content with WPBakery Page Builder.</li>
+	<p><img alt="" src="images/add-content.png" /></p>
+	<li>On the below area, you can add all the information of the team.</li>
+	<p><img alt="" src="images/add-team-information.png" /></p>
+	<li>As short contents for team element are coming from &lsquo;Excerpt&rsquo;, so you need to provide content on &lsquo;Excerpt&rsquo; too. If you&rsquo;re not getting &lsquo;Excerpt&rsquo; option on your team, then click on &ldquo;Screen Options&rdquo; button in the top right hand corner and check &lsquo;Excerpt&rsquo; to get the option.</li>
+	<p><img alt="" src="images/excerpt.png" /></p>
+	<li>On the right hand side, you will find &quot;Team Member Image&quot; section. Here, you can provide an image for your team item.</li>
+	<p><img alt="" src="images/team-image.png" /></p>
+	<li>From &quot;Professions&quot; box, you can put your team item under a suitable profession or create a new profession for that.</li>
+	<p><img alt="" src="images/profession-list.png" /></p>
+	<li>Finally, click on &quot;Publish&quot; button to publish your team item.</li>
+	<p><img alt="" src="images/publishing-options.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="PortfolioItems2">
+<h3 class="content-element-item-title">Portfolio Items</h3>
+
+<p>Please go through the points given below to understand how to create a new portfolio post---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Login to WordPress admin panel.</li>
+	<li>Navigate to &quot;Portfolio &gt; Add New Portfolio&quot;</li>
+	<li>Provide a suitable title for your portfolio item.</li>
+	<p><img alt="" src="images/post-title.png" /></p>
+	<li>On the below area, you have to write content for your portfolio item. Also, you can add content with WPBakery Page Builder.</li>
+	<p><img alt="" src="images/add-content.png" /></p>
+	<li>On the right hand side, you will find &quot;Portfolio Image&quot; section. Here, you can provide an image for your portfolio item.</li>
+	<p><img alt="" src="images/portfolio-image.png" /></p>
+	<li>From &quot;Portfolio Categories&quot; box, you can put your portfolio item under a suitable category or create a new category for that.</li>
+	<p><img alt="" src="images/portfolio-cat.png" /></p>
+	<li>Finally, click on &quot;Publish&quot; button to publish your portfolio item.</li>
+	<p><img alt="" src="images/publishing-options.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="CaseStudyItems2">
+<h3 class="content-element-item-title">Case Study Items</h3>
+
+<p>Please go through the points given below to understand how to create a new Case Study item---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Login to WordPress admin panel.</li>
+	<li>Navigate to &quot;Case Study &gt; Add New Case Study&quot;</li>
+	<li>Provide a suitable title for your Case Study item.</li>
+	<p><img alt="" src="images/post-title.png" /></p>
+	<li>On the below area, you have to write content for your Case Study item. Also, you can add content with WPBakery Page Builder.</li>
+	<p><img alt="" src="images/add-content.png" /></p>
+	<li>As short contents for Case Study element are coming from &lsquo;Excerpt&rsquo;, so you need to provide content on &lsquo;Excerpt&rsquo; too. If you&rsquo;re not getting &lsquo;Excerpt&rsquo; option on your Case Study, then click on &ldquo;Screen Options&rdquo; button in the top right hand corner and check &lsquo;Excerpt&rsquo; to get the option.</li>
+	<p><img alt="" src="images/excerpt.png" /></p>
+	<li>On the right hand side, you will find &quot;Case Study Image&quot; section. Here, you can provide an image for your Case Study item.</li>
+	<p><img alt="" src="images/case-study-image.png" /></p>
+	<li>From &quot;Case Study Categories&quot; box, you can put your Case Study item under a suitable category or create a new category for that.</li>
+	<p><img alt="" src="images/case-study-categories.png" /></p>
+	<li>Finally, click on &quot;Publish&quot; button to publish your Case Study item.</li>
+	<p><img alt="" src="images/publishing-options.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+
+<div class="content-element-item" id="ClientsItems2">
+<h3 class="content-element-item-title">Clients Items</h3>
+
+<p>Please go through the points given below to understand how to create a new client item---</p>
+
+<div class="sub_text">
+<ol>
+	<li>Login to WordPress admin panel.</li>
+	<li>Navigate to &quot;Clients &gt; Add New Client&quot;</li>
+	<li>Provide a suitable title for your client item.</li>
+	<p><img alt="" src="images/client-title.png" /></p>
+	<li>On the right hand side, you will find &quot;Client Hover Image&quot; section. Here, you can provide an image for your client item.</li>
+	<p><img alt="" src="images/tc-image.png" /></p>
+	<li>You can add client link on &quot;Client Link&quot; field.</li>
+	<p><img alt="" src="images/client-link.png" /></p>
+	<li>Finally, click on &quot;Publish&quot; button to publish your testimonial item.</li>
+	<p><img alt="" src="images/publishing-options.png" /></p>
+</ol>
+</div>
+</div>
+<!-- content-element-item -->
+
+<!-- content-element-item -->
+<!--<div class="content-element-item" id="MailChimp">
+<h3 class="content-element-item-title">MailChimp</h3>
+
+<p>You can manage MailChimp form by following this tutorial--</p>
+
+<div class="text-center"><iframe allow="encrypted-media" allowfullscreen="" frameborder="0" gesture="media" height="633" src="https://www.youtube.com/embed/L9xbb-mlky4" width="1366"></iframe></div>
+</div>-->
+<!-- content-element-item -->
+<!-- content-element-item -->
+
+<div class="content-element-item" id="Translation">
+<h3 class="content-element-item-title">Translation</h3>
+
+<p><strong>Use .mo/.po files and Poedit software</strong></p>
+
+<p>For individuals who desire translation using files included in the theme, we suggest using the .mo/.po files. These files work in &lsquo;buddies&rsquo; or pairs, so for every language, you must have 2 files with the same name but with a different extension name altogether. For example, if you wish to translate into French language, your files would be <strong>fr_FR.mo</strong> and <strong>fr_FR.po</strong></p>
+
+<p>To make edits on these files, you have to use <a href="//www.poedit.net/" target="_blank">Poedit </a>which is an &ldquo;easy to use&rdquo; software. You only need to upload the files into Poedit, edit and upload them into the&quot;languages&quot; folder that are included or provided in the theme.</p>
+
+</div>
+<!-- content-element-item --><!-- content-element-item -->
+
+<div class="content-element-item" id="SiteMaintenance">
+<h3 class="content-element-item-title">Site Maintenance</h3>
+
+<p>We offer you our advice and expertise, so that you can enhance your website&rsquo;s performance.</p>
+
+<p><strong style="font-size:20px;">Improve Site Speed</strong></p>
+
+<p>Website loading speed is of utmost importance. Visitors don&#39;t like a slow website. We have already made the necessary changes in our theme to help your site load faster. Our theme&#39;s page speed is 90 in &#39;Google page speed insight test&#39; (without this plugin). Please read the points mentioned below to know how you can improve your website loading speed.</p>
+
+<p><strong>Image Compress with TinyPNG:</strong></p>
+
+<p>You can compress images from TinyPNG website. Visit <a href="https://tinypng.com/" target="_blank">https://tinypng.com/</a> and compress all images before uploading them on your website. By this process, you can decrease your website loading time and provide your visitors, a better experience.</p>
+
+<p><strong>.htaccess Code For Better Website Speed:</strong></p>
+
+<p>Please copy and paste the below mentioned code to your <kbd>.htaccess</kbd> file (you will find this file on the root folder of your hosting directory) for improved performance of your website.</p>
+
+<p>(N.B.: Please don&#39;t replace any code that already exists on the .htaccess file. It may have serious implications on your website.)</p>
+
+<pre>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+## EXPIRES CACHING ##
+&lt;IfModule mod_expires.c&gt;
+ExpiresActive On
+ExpiresByType image/jpg &quot;access 1 year&quot;
+ExpiresByType image/jpeg &quot;access 1 year&quot;
+ExpiresByType image/gif &quot;access 1 year&quot;
+ExpiresByType image/png &quot;access 1 year&quot;
+ExpiresByType text/css &quot;access 1 month&quot;
+ExpiresByType text/html &quot;access 1 month&quot;
+ExpiresByType application/pdf &quot;access 1 month&quot;
+ExpiresByType text/x-javascript &quot;access 1 month&quot;
+ExpiresByType application/x-shockwave-flash &quot;access 1 month&quot;
+ExpiresByType image/x-icon &quot;access 1 year&quot;
+ExpiresDefault &quot;access 1 month&quot;
+&lt;/IfModule&gt;
+## EXPIRES CACHING ##</pre>
+&nbsp;
+
+<p><strong>WP Fastest Cache:</strong></p>
+
+<p>WP Fastest Cache is our preferred plugin for website cache. You can install this plugin and also learn how this plugin works, by following the below mentioned steps:</p>
+
+<ol>
+	<li>Login to WordPress admin panel (URL should be <a href="//www.yourdomain.com/wp-admin" rel="noreferrer">www.yourdomain.com/wp-admin</a> ).</li>
+	<li>Navigate to &quot;Plugins &gt; Add New&quot; (see screenshot below).</li>
+	<li>Search for &quot;WP Fastest Cache&quot;.</li>
+	<li>Install and activate the plugin.</li>
+	<li>Check on &ldquo;Enable&rdquo;, to enable cache.<br />
+	<img alt="" src="images/cache.png" /></li>
+</ol>
+
+<p><strong>Check Website On Google Page Insights and GT Metrix:</strong></p>
+
+<p>Please follow the below mentioned steps to check your website for Google Page Speed:</p>
+
+<ol>
+	<li>Visit <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">https://developers.google.com/speed/pagespeed/insights/</a></li>
+	<li>Type your website URL and click on &quot;Analyze&quot; button to know your website speed.</li>
+</ol>
+
+<p>Please follow the below mentioned steps to check your website on GTMetrix:</p>
+
+<ol>
+	<li>Visit <a href="https://gtmetrix.com/" target="_blank">https://gtmetrix.com/</a></li>
+	<li>Type your website URL and click on &quot;Analyze&quot; button to know your website speed.</li>
+</ol>
+</div>
+<!-- content-element-item --><!-- content-element-item --><!-- row --></div>
+</div>
+</div>
+</div>
+</div>
+<!-- wraper_tutorial_main --></div>
+</main>
+<!-- tutorial_main --><!-- JQUERY LIBRARY JS --><script src="js/jquery-1.12.4.min.js" type="text/javascript"></script><!-- BOOTSTRAP JS --><script src="js/bootstrap.min.js" type="text/javascript"></script><!-- WEBSITE JS --><script src="js/website.min.js" type="text/javascript"></script><script type="text/javascript">
+jQuery( document ).ready( function () {
+    // SIDEBAR
+    if ( jQuery( window ).width() > 767 ) {
+        jQuery( "body" ).addClass( "sidebar-active" );
+    }
+    jQuery( ".res-nav" ).click( function () {
+        jQuery( "body" ).toggleClass( "sidebar-active" );
+    } );
+    // SIDEBAR NAV
+    jQuery( ".nav a" ).click( function () {
+        jQuery( ".nav li" ).removeClass( "current-menu-item" );
+        jQuery( this ).parent().addClass( "current-menu-item" );
+        jQuery( "html,body" ).animate( {
+            scrollTop: jQuery( jQuery( this ).attr( "href" ) ).offset().top - jQuery( ".wraper_header_main" ).outerHeight()
+        }, 500 );
+    } );
+    jQuery( ".nav > ul > li" ).children( "ul" ).slideUp( 500 );
+    jQuery( ".nav > ul > li:first-child" ).children( "ul" ).slideDown( 500 );
+    jQuery( ".nav > ul > li:first-child" ).addClass( "current-menu-item" );
+    jQuery( ".nav > ul > li > a" ).click( function () {
+        jQuery( ".nav > ul > li" ).children( "ul" ).slideUp( 500 );
+        jQuery( this ).parent().children( "ul" ).slideDown( 500 );
+    } );
+    // ADD IMAGE POPUP
+    jQuery( ".content-element-item img" ).each( function () {
+        jQuery( this ).wrap( "<a class='prettyPhoto' href='" + jQuery( this ).attr( "src" ) + "'></a>" );
+    } );
+    // TOOLTIP
+    jQuery( "[data-toggle='tooltip']" ).tooltip();
+    // MATCHHEIGHT
+    jQuery( ".matchHeight" ).matchHeight();
+    // ENSCROLL
+    jQuery( ".nav" ).enscroll( {
+        showOnHover: false,
+        scrollIncrement: 70,
+    } );
+    // PRETTYPHOTO
+    jQuery( ".prettyPhoto" ).prettyPhoto( {
+        theme: 'dark_square',
+        social_tools: false,
+        deeplinking: false,
+    } );
+} );
+</script></body>
+</html>

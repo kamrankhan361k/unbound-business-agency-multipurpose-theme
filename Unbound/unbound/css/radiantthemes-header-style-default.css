@@ -1,0 +1,322 @@
+﻿/* wraper_header */
+
+.wraper_header{
+	position:relative;
+	top:0;
+	z-index:999;
+    width:100%;
+    height:auto;
+    direction:initial;
+}
+
+/* wraper_header_main */
+
+.wraper_header_main{
+    width:100%;
+    height:auto;
+}
+
+body.admin-bar .wraper_header_main{
+	top:0;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+body.admin-bar .is-sticky .wraper_header_main{
+	top:32px !important;
+}
+
+.wraper_header_main > .container{
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.header_main{
+	position:relative;
+}
+
+.header_main .brand-logo{
+	width:auto;
+	height:auto;
+    float:left;
+    margin:10px 0px 0px 0px;
+    text-align:center;
+    font-size:0;
+}
+
+.header_main .brand-logo img{
+	max-width:230px;
+}
+
+.header_main .responsive-nav{
+	width:auto;
+	height:auto;
+	float:right;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.header_main .responsive-nav i{
+	font-size:35px;
+	color:#fff;
+	line-height:35px;
+	cursor:pointer;
+}
+
+/* MOBILE MENU - SIDR */
+
+#mobile-menu{
+	width:300px;
+	right:-300px;
+	background-color:#fff;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.sidr{
+}
+
+.mobile-menu-main{
+}
+
+.mobile-menu-close{
+	padding:10px 15px 8px 15px;
+    border-bottom:1px rgba(0,0,0,0.075) solid;
+    text-align:right;
+    cursor:pointer;
+}
+
+.mobile-menu-close i{
+	font-size:20px;
+	line-height:1;
+}
+
+.mobile-menu-nav{
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu{
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li{
+	position:relative;
+	width:100%;
+	float:left;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li a{
+	position:relative;
+	display:block;
+	width:auto;
+	height:auto;
+	padding:10px 22px 10px 15px;
+	border-bottom:1px rgba(0,0,0,0.075) solid;
+	color:inherit;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li.menu-item-has-children > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li.menu-item-has-children > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.menu-item-has-children > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li.menu-item-has-children > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li.menu-item-has-children a{
+	padding-right:50px;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li.current-menu-item > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li.current-menu-parent > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li.current-menu-item > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li.current-menu-parent > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.current-menu-item > a,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.current-menu-parent > a{
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li.menu-item-has-children > .radiantthemes-open-submenu,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li.menu-item-has-children > .radiantthemes-open-submenu,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.menu-item-has-children > .radiantthemes-open-submenu,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li.menu-item-has-children > .radiantthemes-open-submenu,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li.menu-item-has-children > .radiantthemes-open-submenu{
+	position:absolute;
+	top:0;
+	right:0;
+	width:40px;
+	cursor:pointer;
+	text-align:center;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li.menu-item-has-children > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li.menu-item-has-children > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.menu-item-has-children > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li.menu-item-has-children > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li.menu-item-has-children > .radiantthemes-open-submenu:before{
+	content:"+";
+	font-size:125%;
+	line-height:47px;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li.menu-item-has-children.radiantthemes-menu-open > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li.menu-item-has-children.radiantthemes-menu-open > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.menu-item-has-children.radiantthemes-menu-open > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li.menu-item-has-children.radiantthemes-menu-open > .radiantthemes-open-submenu:before,
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li.menu-item-has-children.radiantthemes-menu-open > .radiantthemes-open-submenu:before{
+	content:"-";
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > a{
+	padding-left:30px;
+	font-size:90%;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > a{
+	padding-left:45px;
+	font-size:85%;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > a{
+	padding-left:65px;
+	font-size:80%;
+}
+
+.mobile-menu-nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li a{
+	padding-left:80px;
+	font-size:75%;
+}
+
+/* MOBILE MENU - SIDR - RADIANTTHEMES MEGA MENU */
+
+.sidr .rt-sub-menu,
+.sidr .rt-mega-menu{
+	position:relative;
+	width:100%;
+	float:left;
+	opacity:1 !important;
+	visibility:visible !important;
+	background-color:transparent;
+	box-shadow:initial;
+	transform:translate(0, 0) !important;
+	-webkit-transform:translate(0, 0) !important;
+}
+
+.sidr .rt-sub-menu{
+	background-color:transparent;
+}
+
+.sidr .rt-sub-menu > li{
+	width:100%;
+	float:left;
+}
+
+.sidr .rt-mega-menu > .rt-sub-menu{
+	display:block;
+	opacity:1;
+	visibility:visible;
+	background-color:transparent;
+}
+
+.sidr .rt-mega-menu > .rt-sub-menu > .rt-mega-menu-col{
+	display:block;
+}
+
+.sidr .rt-mega-menu > ul > .menu-item{
+    border-bottom:1px rgba(0,0,0,0.075) solid;
+}
+
+.sidr .rt-mega-menu .rt-megamenu-widget .rt-megamenu-widget-title{
+    border-bottom-color:rgba(0,0,0,0.075);
+    color:inherit;
+    letter-spacing:0;
+}
+
+.sidr .rt-mega-menu .rt-megamenu-widget ul.menu > li{
+    color:inherit;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/* wraper_header_main */
+
+	.header_main_action{
+		margin-top:21px;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* wraper_header_main */
+
+	body.admin-bar .is-sticky .wraper_header_main{
+		top:0 !important;
+	}
+
+	.header_main .brand-logo{
+		width:100%;
+	}
+
+	/* MOBILE MENU - SIDR */
+
+	#mobile-menu{
+		width:100%;
+		right:-100%;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* wraper_header_main */
+
+	body.admin-bar .is-sticky .wraper_header_main{
+		top:0 !important;
+	}
+
+	.header_main .brand-logo{
+		width:100%;
+	}
+
+	/* MOBILE MENU - SIDR */
+
+	#mobile-menu{
+		width:100%;
+		right:-100%;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* wraper_header_main */
+
+	body.admin-bar .is-sticky .wraper_header_main{
+		top:0 !important;
+	}
+
+	.header_main .brand-logo{
+		width:100%;
+	}
+
+	/* MOBILE MENU - SIDR */
+
+	#mobile-menu{
+		width:100%;
+		right:-100%;
+	}
+
+}

@@ -1,0 +1,27 @@
+﻿/* PRINT FIX */
+@media print{
+	
+	@page{
+		margin: 0;
+	}
+		
+	a[href]:after,
+	img[src]:after{
+		content: none !important;
+	}
+
+	.wraper_header_main,
+	.sidebar,
+	iframe{
+		display:none;
+	}
+	
+	.tutorial_main{
+	    margin-left:0 !important;
+	}
+	
+	.content-element{
+	    padding:0;
+	}
+	
+}

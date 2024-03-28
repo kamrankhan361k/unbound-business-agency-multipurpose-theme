@@ -1,0 +1,54 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">product</custom-type>
+    <custom-type translate="1">product_variation</custom-type>
+    <custom-type translate="1">shop_order</custom-type>
+    <custom-type translate="1">shop_order_refund</custom-type>
+    <custom-type translate="1">shop_coupon</custom-type>
+    <custom-type translate="1">vc4_templates</custom-type>
+    <custom-type translate="1">wpcf7_contact_form</custom-type>
+    <custom-type translate="1">vc_grid_item</custom-type>
+    <custom-type translate="1">testimonial</custom-type>
+    <custom-type translate="1">team</custom-type>
+    <custom-type translate="1">portfolio</custom-type>
+    <custom-type translate="1">case-studies</custom-type>
+    <custom-type translate="1">client</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">product_type</taxonomy>
+    <taxonomy translate="1">product_visibility</taxonomy>
+    <taxonomy translate="1">product_cat</taxonomy>
+    <taxonomy translate="1">product_tag</taxonomy>
+    <taxonomy translate="1">product_shipping_class</taxonomy>
+    <taxonomy translate="1">translation_priority</taxonomy>
+    <taxonomy translate="1">profession</taxonomy>
+    <taxonomy translate="1">portfolio-category</taxonomy>
+    <taxonomy translate="1">case-study-category</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="translate">banner_title</custom-field>
+    <custom-field action="translate">banner_subtitle</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="unbound_theme_option">
+      <key name="gdpr_notice_content"/>
+      <key name="gdpr_notice_button_text"/>
+      <key name="header_three_header_top_contact_phone"/>
+      <key name="header_three_header_top_contact_email"/>
+      <key name="footer_one_copyright_text"/>
+      <key name="footer_three_copyright_text"/>
+      <key name="footer_four_copyright_text"/>
+      <key name="footer_five_copyright_text"/>
+      <key name="footer_six_copyright_text"/>
+      <key name="footer_seven_copyright_text"/>
+      <key name="footer_eight_copyright_text"/>
+      <key name="footer_eight_contact_address"/>
+      <key name="footer_nine_copyright_text"/>
+      <key name="footer_ten_copyright_text"/>
+      <key name="footer_eleven_copyright_text"/>
+      <key name="404_error_content"/>
+      <key name="maintenance_mode_content_body"/>
+      <key name="coming_soon_body"/>
+    </key>
+  </admin-texts>
+</wpml-config>
